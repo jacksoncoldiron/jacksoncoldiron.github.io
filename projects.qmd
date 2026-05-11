@@ -1,0 +1,62 @@
+---
+title: "Projects"
+toc: true
+---
+
+## Independent Projects
+
+### Multifunctional Landscapes
+
+**[View on GitHub](https://github.com/jacksoncoldiron/multifunctional-landscapes)**
+
+Spatial feasibility analysis for agroforestry and agrivoltaic systems across Sub-Saharan Africa. Built a raster harmonization pipeline in R to integrate multi-source geospatial datasets at 1 km resolution and apply threshold-based multi-criteria suitability analysis. Part of the Arnhold Fellowship / SPARCLE Project with Conservation International and the Ashley Larsen Lab at UCSB.
+
+**Tools:** R · Google Earth Engine · QGIS · Quarto
+
+---
+
+### Remote Sensing of Irrigation & Drought — SIF Analysis
+
+**[View on GitHub](https://github.com/jacksoncoldiron/SIF-Analysis)**
+
+Isolates the human contribution to evapotranspiration in Midwestern croplands by integrating ECOSTRESS and NLDAS modeled ET data. Computes solar-induced chlorophyll fluorescence (SIF) anomalies and lagged ET correlations to detect where irrigation sustains yields during drought while amplifying heat extremes.
+
+**Tools:** Python · Google Earth Engine · xarray · rasterio · matplotlib
+
+---
+
+### Intercropping Meta-Analysis — Shiny App
+
+**[View on GitHub](https://github.com/jacksoncoldiron/shiny_intercropping_jc_nd_ig)**
+
+Interactive R Shiny app for exploring a global meta-analysis of intercropping experiments. Features map, time-series, and crop-pair views for investigating study occurrence and yield impacts. Implements a principal component analysis on land equivalent ratio metrics to identify drivers of yield gains and input reductions.
+
+**Tools:** R · Shiny · ggplot2
+
+---
+
+## Collaborative Projects
+
+### IPLC Climate Nexus — Amazonia Climate Risk Analysis
+
+**[View on GitHub](https://github.com/IPLC-Climate-Nexus/main-analysis)**
+
+Group project in partnership with Conservation International's Global IPLC Center. Assesses how climate risks intersect with Indigenous Peoples & Local Communities territories across Amazonia to identify lands suitable for Nature-based Solutions intervention. Roles span spatial data management, R modeling, and ArcGIS Pro analysis.
+
+**Tools:** R · ArcGIS Pro · Python
+
+---
+
+### Smallholder Irrigation Dataset — Zambia
+
+**[View on GitHub](https://github.com/anna-boser/smallholder-irrigation-dataset)**
+
+Collaborative dataset and analysis revealing 400 km² of previously undocumented small-scale dry-season irrigation across Zambia through geospatial statistical analysis of satellite imagery. Includes a benchmark ML labeling dataset (2,325 labeled images across 933 locations) and an R Shiny app for stakeholder data access.
+
+**Tools:** R · Shiny · Google Earth Engine · Python
+
+---
+
+::: {.callout-note}
+For a full list of repositories, visit my [GitHub profile](https://github.com/jacksoncoldiron).
+:::

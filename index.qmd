@@ -1,0 +1,167 @@
+---
+title: "Jackson Coldiron"
+image: media/headshot.png
+toc: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 16em
+  links:
+    - text: GitHub
+      icon: github
+      href: https://github.com/jacksoncoldiron
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/jacksoncoldiron/
+    - text: Email
+      icon: envelope
+      href: mailto:jcoldiron@bren.ucsb.edu
+---
+
+I'm a master's student at the [Bren School of Environmental Science & Management](https://bren.ucsb.edu) at UC Santa Barbara, specializing in Water Resource Management. My work sits at the intersection of **spatial data science**, **climate-smart agriculture**, and **conservation planning** — with a particular focus on using satellite remote sensing and geospatial modeling to understand how land and water systems are changing. Before Bren, I worked in sustainability communications in New York and spent time farming, volunteering on kiwi conservation in New Zealand, and getting my hands dirty in as many ecosystems as possible.
+
+---
+
+## Timeline
+
+```{=html}
+<div class="tl-legend">
+  <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#2c7bb6"></div> Education</div>
+  <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#1a9641"></div> Research</div>
+  <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#d7191c"></div> Conservation & Field</div>
+  <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#fdae61"></div> Other Experience</div>
+</div>
+
+<div class="timeline">
+
+  <div class="tl-item tl-education">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Jun 2021</div>
+    <div class="tl-content">
+      <div class="tl-title">BBA — Finance & Urban Land Economics</div>
+      <div class="tl-org">University of Wisconsin, Madison</div>
+      <p>Graduated with a 3.67 GPA. Undergraduate research on applying Low Income Housing Tax Credits to the Bay Area housing crisis.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-other">
+    <div class="tl-dot"></div>
+    <div class="tl-date">2021 – 2023</div>
+    <div class="tl-content">
+      <div class="tl-title">Environmental & Social Impact Partnerships</div>
+      <div class="tl-org">The Vita Coco Company — New York City, NY</div>
+      <p>Led ESG strategy and sustainability partnerships. Coordinated the brand's first social impact campaign, driving $13,000 in nonprofit donations and 10% social following growth.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-other">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Sep – Oct 2023</div>
+    <div class="tl-content">
+      <div class="tl-title">Farmer</div>
+      <div class="tl-org">Worldwide Organization of Organic Farmers — Bogotá, Colombia</div>
+      <p>Worked on organic farms through the WWOOF program, gaining hands-on experience in sustainable agriculture.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-conservation">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Jan – Jul 2024</div>
+    <div class="tl-content">
+      <div class="tl-title">Plant Specialist</div>
+      <div class="tl-org">Broadway Terrace Nursery — Oakland, CA</div>
+      <p>Developed deep knowledge of native California plant communities while advising customers on restoration and garden ecology.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-conservation">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Aug – Sep 2024</div>
+    <div class="tl-content">
+      <div class="tl-title">Kiwi Conservation Volunteer</div>
+      <div class="tl-org">Whakatāne Kiwi Trust — Whakatāne, New Zealand</div>
+      <p>Maintained pest control trap networks and tracked kiwi chick locations via radio transmitter to build geospatial population maps.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-education">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Sep 2024</div>
+    <div class="tl-content">
+      <div class="tl-title">Master of Environmental Science & Management (MESM)</div>
+      <div class="tl-org">Bren School — UC Santa Barbara</div>
+      <p>Specialization in Water Resource Management. Focus in Environmental Communication. 4.00 GPA. Mentor in the Bren-ES Fellows program and Graduate Mentor with The Wildlife Society.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-research">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Nov 2024 – Present</div>
+    <div class="tl-content">
+      <div class="tl-title">Graduate Research Assistant</div>
+      <div class="tl-org">UCSB Water, Vegetation & Society Lab</div>
+      <p>Developed a novel satellite image labeling protocol to build a benchmark ML dataset mapping dry-season irrigation across Zambia. Managed a team of 4 undergraduate researchers across 2,325 labeled images.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-conservation">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Dec 2024 – Jun 2025</div>
+    <div class="tl-content">
+      <div class="tl-title">Conservation Intern</div>
+      <div class="tl-org">Los Padres ForestWatch — Santa Barbara, CA</div>
+      <p>Conducted GIS habitat analyses evaluating ecological impacts of proposed Forest Service fuel reduction projects. Assessed <em>Adenostoma sparsifolium</em> (Redshanks) distribution for climate adaptation planning.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-research">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Apr 2025 – Present</div>
+    <div class="tl-content">
+      <div class="tl-title">Data Manager — Master's Group Project</div>
+      <div class="tl-org">Conservation International (IPLC Center)</div>
+      <p>Using ArcGIS Pro and R to assess climate risks intersecting with Indigenous Peoples & Local Communities territories across Amazonia, identifying lands suitable for Nature-based Solutions intervention.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-research">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Jun – Aug 2025</div>
+    <div class="tl-content">
+      <div class="tl-title">Climate-Smart Agriculture Research Intern</div>
+      <div class="tl-org">University of Zambia — Lusaka, Zambia</div>
+      <p>Revealed 400 km² of previously undocumented small-scale dry-season irrigation through geospatial analysis. Built a Shiny app to make findings accessible to local stakeholders and policymakers.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-research">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Aug 2025 – Present</div>
+    <div class="tl-content">
+      <div class="tl-title">Independent Researcher — Remote Sensing of Irrigation & Drought</div>
+      <div class="tl-org">UCSB Geography — Advisor: Zoe Pierrat</div>
+      <p>Isolating the human contribution to evapotranspiration using OpenET and NLDAS model data across Midwestern croplands to estimate consumptive water use and aquifer drawdown during drought events.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-research">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Oct 2025 – Present</div>
+    <div class="tl-content">
+      <div class="tl-title">Arnhold Graduate Fellow</div>
+      <div class="tl-org">Conservation International + Ashley Larsen Lab, UCSB</div>
+      <p>Developing a spatial multi-criteria decision analysis for agrivoltaic and agroforestry suitability across Sub-Saharan Africa, integrating 10+ climate, soil, land cover, and socioeconomic criteria.</p>
+    </div>
+  </div>
+
+  <div class="tl-item tl-education">
+    <div class="tl-dot"></div>
+    <div class="tl-date">Expected Jun 2026</div>
+    <div class="tl-content">
+      <div class="tl-title">MESM — Graduation</div>
+      <div class="tl-org">Bren School — UC Santa Barbara</div>
+    </div>
+  </div>
+
+</div>
+```

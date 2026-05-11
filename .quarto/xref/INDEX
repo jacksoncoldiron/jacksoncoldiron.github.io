@@ -1,0 +1,23 @@
+{
+  "research.qmd": {
+    "research.html": "275765b1"
+  },
+  "cool-places/example-place-2.qmd": {
+    "example-place-2.html": "644f0f55"
+  },
+  "cool-places/example-place-1.qmd": {
+    "example-place-1.html": "20ea1d61"
+  },
+  "cool-places/place-template.qmd": {
+    "place-template.html": "70cfb0ab"
+  },
+  "projects.qmd": {
+    "projects.html": "d6ad8160"
+  },
+  "index.qmd": {
+    "index.html": "da687002"
+  },
+  "cool-places.qmd": {
+    "cool-places.html": "9c79f5f1"
+  }
+}

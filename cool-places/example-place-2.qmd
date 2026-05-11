@@ -1,0 +1,41 @@
+---
+title: "Place Name 2"
+description: "Short tagline — why you were there, when"
+image: ../media/places/example-place-2/cover.jpg
+---
+
+## Why I Was Here
+
+*[Describe the trip — purpose, context, what made it memorable. 2–4 sentences.]*
+
+---
+
+## Photos
+
+::: {layout="[[1,1,1], [1,1,1], [1,1,1], [1,1,1], [1,1]]"}
+
+![](../media/places/example-place-2/01.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/02.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/03.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/04.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/05.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/06.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/07.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/08.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/09.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/10.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/11.jpg){.lightbox group="example-place-2"}
+
+![](../media/places/example-place-2/12.jpg){.lightbox group="example-place-2"}
+
+:::

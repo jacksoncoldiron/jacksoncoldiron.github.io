@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jackson Coldiron"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: cool-places.qmd
+        text: Cool Places
+    right:
+      - icon: github
+        href: https://github.com/jacksoncoldiron
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jacksoncoldiron/
+        aria-label: LinkedIn
+
+  page-footer:
+    center: "© 2025 Jackson Coldiron | Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    page-layout: full
+    lightbox: true

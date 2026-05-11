@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "cool-places.html",
+    "href": "cool-places.html",
+    "title": "Cool Places",
+    "section": "",
+    "text": "Place Name 2\n\n\nShort tagline — why you were there, when\n\n\n\n\n\n\n\n\n\n\n\n\nPlace Name 1\n\n\nShort tagline — why you were there, when\n\n\n\n\n\n\n\n\n\n\n\n\nPlace Name\n\n\nOne-line tagline — e.g. ‘Field research trip, Spring 2025’\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "View on GitHub\nSpatial feasibility analysis for agroforestry and agrivoltaic systems across Sub-Saharan Africa. Built a raster harmonization pipeline in R to integrate multi-source geospatial datasets at 1 km resolution and apply threshold-based multi-criteria suitability analysis. Part of the Arnhold Fellowship / SPARCLE Project with Conservation International and the Ashley Larsen Lab at UCSB.\nTools: R · Google Earth Engine · QGIS · Quarto\n\n\n\n\nView on GitHub\nIsolates the human contribution to evapotranspiration in Midwestern croplands by integrating ECOSTRESS and NLDAS modeled ET data. Computes solar-induced chlorophyll fluorescence (SIF) anomalies and lagged ET correlations to detect where irrigation sustains yields during drought while amplifying heat extremes.\nTools: Python · Google Earth Engine · xarray · rasterio · matplotlib\n\n\n\n\nView on GitHub\nInteractive R Shiny app for exploring a global meta-analysis of intercropping experiments. Features map, time-series, and crop-pair views for investigating study occurrence and yield impacts. Implements a principal component analysis on land equivalent ratio metrics to identify drivers of yield gains and input reductions.\nTools: R · Shiny · ggplot2"
+  },
+  {
+    "objectID": "projects.html#independent-projects",
+    "href": "projects.html#independent-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "View on GitHub\nSpatial feasibility analysis for agroforestry and agrivoltaic systems across Sub-Saharan Africa. Built a raster harmonization pipeline in R to integrate multi-source geospatial datasets at 1 km resolution and apply threshold-based multi-criteria suitability analysis. Part of the Arnhold Fellowship / SPARCLE Project with Conservation International and the Ashley Larsen Lab at UCSB.\nTools: R · Google Earth Engine · QGIS · Quarto\n\n\n\n\nView on GitHub\nIsolates the human contribution to evapotranspiration in Midwestern croplands by integrating ECOSTRESS and NLDAS modeled ET data. Computes solar-induced chlorophyll fluorescence (SIF) anomalies and lagged ET correlations to detect where irrigation sustains yields during drought while amplifying heat extremes.\nTools: Python · Google Earth Engine · xarray · rasterio · matplotlib\n\n\n\n\nView on GitHub\nInteractive R Shiny app for exploring a global meta-analysis of intercropping experiments. Features map, time-series, and crop-pair views for investigating study occurrence and yield impacts. Implements a principal component analysis on land equivalent ratio metrics to identify drivers of yield gains and input reductions.\nTools: R · Shiny · ggplot2"
+  },
+  {
+    "objectID": "projects.html#collaborative-projects",
+    "href": "projects.html#collaborative-projects",
+    "title": "Projects",
+    "section": "Collaborative Projects",
+    "text": "Collaborative Projects\n\nIPLC Climate Nexus — Amazonia Climate Risk Analysis\nView on GitHub\nGroup project in partnership with Conservation International’s Global IPLC Center. Assesses how climate risks intersect with Indigenous Peoples & Local Communities territories across Amazonia to identify lands suitable for Nature-based Solutions intervention. Roles span spatial data management, R modeling, and ArcGIS Pro analysis.\nTools: R · ArcGIS Pro · Python\n\n\n\nSmallholder Irrigation Dataset — Zambia\nView on GitHub\nCollaborative dataset and analysis revealing 400 km² of previously undocumented small-scale dry-season irrigation across Zambia through geospatial statistical analysis of satellite imagery. Includes a benchmark ML labeling dataset (2,325 labeled images across 933 locations) and an R Shiny app for stakeholder data access.\nTools: R · Shiny · Google Earth Engine · Python\n\n\n\n\n\n\n\nNote\n\n\n\nFor a full list of repositories, visit my GitHub profile."
+  },
+  {
+    "objectID": "cool-places/example-place-1.html",
+    "href": "cool-places/example-place-1.html",
+    "title": "Place Name 1",
+    "section": "",
+    "text": "[Describe the trip — purpose, context, what made it memorable. 2–4 sentences.]"
+  },
+  {
+    "objectID": "cool-places/example-place-1.html#why-i-was-here",
+    "href": "cool-places/example-place-1.html#why-i-was-here",
+    "title": "Place Name 1",
+    "section": "",
+    "text": "[Describe the trip — purpose, context, what made it memorable. 2–4 sentences.]"
+  },
+  {
+    "objectID": "cool-places/example-place-1.html#photos",
+    "href": "cool-places/example-place-1.html#photos",
+    "title": "Place Name 1",
+    "section": "Photos",
+    "text": "Photos"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Arnhold Environmental Graduate Fellow — SPARCLE Project | Conservation International + Ashley Larsen Lab, UCSB | Oct 2025–Present\nDeveloping and executing a multi-criteria decision analysis for agrivoltaics and agroforestry suitability across Sub-Saharan Africa, integrating 10+ climate, soil, land cover, and socioeconomic criteria to identify optimal multifunctional landscapes under current conditions and future climate scenarios. Also quantifying food and energy co-benefits by estimating crop yield response under shading and agroforestry timber/fruit/nut outputs for suitable lands.\nMethods: R, Google Earth Engine, QGIS, Quarto Data: CHELSA climate, MODIS LULC, SRTM DEM, WDPA protected areas, SoilGrids\n\n\n\n\nIndependent Research | UCSB Geography — Advisor: Zoe Pierrat | Aug 2025–Present\nIsolating the human contribution to evapotranspiration to reveal irrigation-driven humidity impacts across Midwestern croplands. Integrates modeled and observed ET data (ECOSTRESS & NLDAS) to assess atmosphere feedbacks, and uses solar-induced chlorophyll fluorescence (SIF) anomalies and lagged ET correlations to detect where irrigation sustains yields while amplifying heat extremes.\nMethods: Python (xarray, rasterio, numpy, matplotlib), Google Earth Engine Data: ECOSTRESS, NLDAS, NASA GEOS-CF SIF\n\n\n\n\nData Manager, Master’s Group Project | Conservation International — IPLC Center | Apr 2025–Present Client: Sushma Shrestha (CI) | Faculty Advisor: Bruce Kendall\nPartnering with CI’s Global Indigenous Peoples and Local Communities (IPLC) Center to assess how climate risks intersect with IPLC territories across Amazonia and their implications for carbon storage and biodiversity. Using ArcGIS Pro and R to identify specific territories suitable for Nature-based Solutions intervention based on climate vulnerability, natural asset portfolios, and territorial rights.\nMethods: ArcGIS Pro (ModelBuilder, Spatial Analyst), R Data: IPCC climate projections, RAISG IPLC boundaries, Global Forest Watch\n\n\n\n\nGraduate Research Assistant | Water, Vegetation & Society (WAVES) Lab, UCSB | Nov 2024–Present\nCreated a novel satellite image labeling protocol using Google Earth Pro to build a benchmark machine learning dataset mapping dry-season irrigation across all of Zambia over the past 10 years. Managed a team of 4 undergraduate researchers to label 2,325 images at 933 randomly selected locations; irrigation was detected in 27% of images.\nMethods: Google Earth Pro, R, Python Data: Sentinel-2, Landsat imagery\n\n\n\n\nField Volunteer Researcher | Water, Vegetation & Society (WAVES) Lab, UCSB | Jan 2025–Present\nMeasuring stomatal conductance of Coast Live Oaks at Dangermond Preserve to assess plant physiological responses to drought, contributing to the Earth Research Institute’s mission to predict ecosystem resilience."
+  },
+  {
+    "objectID": "research.html#current-research",
+    "href": "research.html#current-research",
+    "title": "Research",
+    "section": "",
+    "text": "Arnhold Environmental Graduate Fellow — SPARCLE Project | Conservation International + Ashley Larsen Lab, UCSB | Oct 2025–Present\nDeveloping and executing a multi-criteria decision analysis for agrivoltaics and agroforestry suitability across Sub-Saharan Africa, integrating 10+ climate, soil, land cover, and socioeconomic criteria to identify optimal multifunctional landscapes under current conditions and future climate scenarios. Also quantifying food and energy co-benefits by estimating crop yield response under shading and agroforestry timber/fruit/nut outputs for suitable lands.\nMethods: R, Google Earth Engine, QGIS, Quarto Data: CHELSA climate, MODIS LULC, SRTM DEM, WDPA protected areas, SoilGrids\n\n\n\n\nIndependent Research | UCSB Geography — Advisor: Zoe Pierrat | Aug 2025–Present\nIsolating the human contribution to evapotranspiration to reveal irrigation-driven humidity impacts across Midwestern croplands. Integrates modeled and observed ET data (ECOSTRESS & NLDAS) to assess atmosphere feedbacks, and uses solar-induced chlorophyll fluorescence (SIF) anomalies and lagged ET correlations to detect where irrigation sustains yields while amplifying heat extremes.\nMethods: Python (xarray, rasterio, numpy, matplotlib), Google Earth Engine Data: ECOSTRESS, NLDAS, NASA GEOS-CF SIF\n\n\n\n\nData Manager, Master’s Group Project | Conservation International — IPLC Center | Apr 2025–Present Client: Sushma Shrestha (CI) | Faculty Advisor: Bruce Kendall\nPartnering with CI’s Global Indigenous Peoples and Local Communities (IPLC) Center to assess how climate risks intersect with IPLC territories across Amazonia and their implications for carbon storage and biodiversity. Using ArcGIS Pro and R to identify specific territories suitable for Nature-based Solutions intervention based on climate vulnerability, natural asset portfolios, and territorial rights.\nMethods: ArcGIS Pro (ModelBuilder, Spatial Analyst), R Data: IPCC climate projections, RAISG IPLC boundaries, Global Forest Watch\n\n\n\n\nGraduate Research Assistant | Water, Vegetation & Society (WAVES) Lab, UCSB | Nov 2024–Present\nCreated a novel satellite image labeling protocol using Google Earth Pro to build a benchmark machine learning dataset mapping dry-season irrigation across all of Zambia over the past 10 years. Managed a team of 4 undergraduate researchers to label 2,325 images at 933 randomly selected locations; irrigation was detected in 27% of images.\nMethods: Google Earth Pro, R, Python Data: Sentinel-2, Landsat imagery\n\n\n\n\nField Volunteer Researcher | Water, Vegetation & Society (WAVES) Lab, UCSB | Jan 2025–Present\nMeasuring stomatal conductance of Coast Live Oaks at Dangermond Preserve to assess plant physiological responses to drought, contributing to the Earth Research Institute’s mission to predict ecosystem resilience."
+  },
+  {
+    "objectID": "research.html#past-research-projects",
+    "href": "research.html#past-research-projects",
+    "title": "Research",
+    "section": "Past Research & Projects",
+    "text": "Past Research & Projects\n\nClimate-Smart Agriculture in Zambia\nResearch Intern | University of Zambia — Lusaka, Zambia | Jun–Aug 2025\nConducted geospatial statistical analysis revealing 400 km² of previously undocumented small-scale dry-season irrigation across Zambia. Developed a Shiny app to make findings accessible to local stakeholders and policymakers, and held 10 meetings with Zambian stakeholders to gather technical and policy feedback on applications ranging from solar pump monitoring to national irrigation data gaps.\nMethods: R (sf, terra, shiny), ArcGIS Pro\n\n\n\nRedshanks Habitat & Fuel Reduction Impact Analysis\nConservation Intern | Los Padres ForestWatch — Santa Barbara, CA | Dec 2024–Jun 2025\nConducted GIS habitat and vegetation analyses evaluating ecological impacts of proposed Forest Service fuel reduction projects, producing spatial data layers to support conservation-focused alternatives. Analyzed Adenostoma sparsifolium (Redshanks) distribution in ArcGIS Pro to assess environmental and climatic habitat characteristics for climate adaptation planning.\nMethods: ArcGIS Pro, QGIS\n\n\n\nSalinas River Watershed — Groundwater Sustainability Plan\nUCSB Bren School | Sep–Dec 2025 | View Report (PDF)\nConducted an integrated watershed management analysis synthesizing climate, hydrologic, land-use, population, and water-use datasets to produce a groundwater sustainability management plan for the Salinas River Watershed. Developed recommendations integrating recharge enhancement, irrigation efficiency analysis, and land-use-specific BMPs to reduce overdraft and support SGMA compliance.\nMethods: R, ArcGIS Pro Data: DWR CASGEM, PRISM climate, USGS streamflow"
+  },
+  {
+    "objectID": "research.html#publications-reports",
+    "href": "research.html#publications-reports",
+    "title": "Research",
+    "section": "Publications & Reports",
+    "text": "Publications & Reports\nComing soon."
+  },
+  {
+    "objectID": "research.html#presentations",
+    "href": "research.html#presentations",
+    "title": "Research",
+    "section": "Presentations",
+    "text": "Presentations\nComing soon."
+  },
+  {
+    "objectID": "cool-places/example-place-2.html",
+    "href": "cool-places/example-place-2.html",
+    "title": "Place Name 2",
+    "section": "",
+    "text": "[Describe the trip — purpose, context, what made it memorable. 2–4 sentences.]"
+  },
+  {
+    "objectID": "cool-places/example-place-2.html#why-i-was-here",
+    "href": "cool-places/example-place-2.html#why-i-was-here",
+    "title": "Place Name 2",
+    "section": "",
+    "text": "[Describe the trip — purpose, context, what made it memorable. 2–4 sentences.]"
+  },
+  {
+    "objectID": "cool-places/example-place-2.html#photos",
+    "href": "cool-places/example-place-2.html#photos",
+    "title": "Place Name 2",
+    "section": "Photos",
+    "text": "Photos"
+  },
+  {
+    "objectID": "cool-places/place-template.html",
+    "href": "cool-places/place-template.html",
+    "title": "Place Name",
+    "section": "",
+    "text": "[2–4 sentences: what brought you here, what you were doing, why it was memorable.]"
+  },
+  {
+    "objectID": "cool-places/place-template.html#why-i-was-here",
+    "href": "cool-places/place-template.html#why-i-was-here",
+    "title": "Place Name",
+    "section": "",
+    "text": "[2–4 sentences: what brought you here, what you were doing, why it was memorable.]"
+  },
+  {
+    "objectID": "cool-places/place-template.html#photos",
+    "href": "cool-places/place-template.html#photos",
+    "title": "Place Name",
+    "section": "Photos",
+    "text": "Photos"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jackson Coldiron",
+    "section": "",
+    "text": "I’m a master’s student at the Bren School of Environmental Science & Management at UC Santa Barbara, specializing in Water Resource Management. My work sits at the intersection of spatial data science, climate-smart agriculture, and conservation planning — with a particular focus on using satellite remote sensing and geospatial modeling to understand how land and water systems are changing. Before Bren, I worked in sustainability communications in New York and spent time farming, volunteering on kiwi conservation in New Zealand, and getting my hands dirty in as many ecosystems as possible."
+  },
+  {
+    "objectID": "index.html#timeline",
+    "href": "index.html#timeline",
+    "title": "Jackson Coldiron",
+    "section": "Timeline",
+    "text": "Timeline\n\n   Education\n   Research\n   Conservation & Field\n   Other Experience\n\n\n  \n    \n    Jun 2021\n    \n      BBA — Finance & Urban Land Economics\n      University of Wisconsin, Madison\n      Graduated with a 3.67 GPA. Undergraduate research on applying Low Income Housing Tax Credits to the Bay Area housing crisis.\n    \n  \n  \n    \n    2021 – 2023\n    \n      Environmental & Social Impact Partnerships\n      The Vita Coco Company — New York City, NY\n      Led ESG strategy and sustainability partnerships. Coordinated the brand's first social impact campaign, driving $13,000 in nonprofit donations and 10% social following growth.\n    \n  \n  \n    \n    Sep – Oct 2023\n    \n      Farmer\n      Worldwide Organization of Organic Farmers — Bogotá, Colombia\n      Worked on organic farms through the WWOOF program, gaining hands-on experience in sustainable agriculture.\n    \n  \n  \n    \n    Jan – Jul 2024\n    \n      Plant Specialist\n      Broadway Terrace Nursery — Oakland, CA\n      Developed deep knowledge of native California plant communities while advising customers on restoration and garden ecology.\n    \n  \n  \n    \n    Aug – Sep 2024\n    \n      Kiwi Conservation Volunteer\n      Whakatāne Kiwi Trust — Whakatāne, New Zealand\n      Maintained pest control trap networks and tracked kiwi chick locations via radio transmitter to build geospatial population maps.\n    \n  \n  \n    \n    Sep 2024\n    \n      Master of Environmental Science & Management (MESM)\n      Bren School — UC Santa Barbara\n      Specialization in Water Resource Management. Focus in Environmental Communication. 4.00 GPA. Mentor in the Bren-ES Fellows program and Graduate Mentor with The Wildlife Society.\n    \n  \n  \n    \n    Nov 2024 – Present\n    \n      Graduate Research Assistant\n      UCSB Water, Vegetation & Society Lab\n      Developed a novel satellite image labeling protocol to build a benchmark ML dataset mapping dry-season irrigation across Zambia. Managed a team of 4 undergraduate researchers across 2,325 labeled images.\n    \n  \n  \n    \n    Dec 2024 – Jun 2025\n    \n      Conservation Intern\n      Los Padres ForestWatch — Santa Barbara, CA\n      Conducted GIS habitat analyses evaluating ecological impacts of proposed Forest Service fuel reduction projects. Assessed Adenostoma sparsifolium (Redshanks) distribution for climate adaptation planning.\n    \n  \n  \n    \n    Apr 2025 – Present\n    \n      Data Manager — Master's Group Project\n      Conservation International (IPLC Center)\n      Using ArcGIS Pro and R to assess climate risks intersecting with Indigenous Peoples & Local Communities territories across Amazonia, identifying lands suitable for Nature-based Solutions intervention.\n    \n  \n  \n    \n    Jun – Aug 2025\n    \n      Climate-Smart Agriculture Research Intern\n      University of Zambia — Lusaka, Zambia\n      Revealed 400 km² of previously undocumented small-scale dry-season irrigation through geospatial analysis. Built a Shiny app to make findings accessible to local stakeholders and policymakers.\n    \n  \n  \n    \n    Aug 2025 – Present\n    \n      Independent Researcher — Remote Sensing of Irrigation & Drought\n      UCSB Geography — Advisor: Zoe Pierrat\n      Isolating the human contribution to evapotranspiration using OpenET and NLDAS model data across Midwestern croplands to estimate consumptive water use and aquifer drawdown during drought events.\n    \n  \n  \n    \n    Oct 2025 – Present\n    \n      Arnhold Graduate Fellow\n      Conservation International + Ashley Larsen Lab, UCSB\n      Developing a spatial multi-criteria decision analysis for agrivoltaic and agroforestry suitability across Sub-Saharan Africa, integrating 10+ climate, soil, land cover, and socioeconomic criteria.\n    \n  \n  \n    \n    Expected Jun 2026\n    \n      MESM — Graduation\n      Bren School — UC Santa Barbara"
+  }
+]

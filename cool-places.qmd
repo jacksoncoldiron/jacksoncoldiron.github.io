@@ -1,0 +1,12 @@
+---
+title: "Cool Places"
+listing:
+  contents: cool-places
+  type: grid
+  grid-columns: 3
+  image-height: "260px"
+  fields: [image, title, description]
+  sort: false
+toc: false
+page-layout: full
+---
