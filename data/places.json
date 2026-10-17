@@ -1,0 +1,320 @@
+[
+ {
+  "slug": "santa-barbara",
+  "title": "Santa Barbara & the Gaviota Coast",
+  "region": "California, USA",
+  "date": "2025",
+  "blurb": "Home base for grad school: chaparral ridgelines, oak woodland, and the Dangermond Preserve.",
+  "category": "field",
+  "lat": 34.42,
+  "lng": -119.7,
+  "photos": [
+   {
+    "src": "media/photos/santa-barbara/01.webp",
+    "thumb": "media/photos/santa-barbara/01-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 1 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/santa-barbara/02.webp",
+    "thumb": "media/photos/santa-barbara/02-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 2 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/santa-barbara/03.webp",
+    "thumb": "media/photos/santa-barbara/03-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 3 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/santa-barbara/04.webp",
+    "thumb": "media/photos/santa-barbara/04-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 4 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/santa-barbara/05.webp",
+    "thumb": "media/photos/santa-barbara/05-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 5 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/santa-barbara/06.webp",
+    "thumb": "media/photos/santa-barbara/06-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 6 (replace with your own)",
+    "date": null
+   }
+  ],
+  "sample": true
+ },
+ {
+  "slug": "los-padres",
+  "title": "Los Padres National Forest",
+  "region": "California, USA",
+  "date": "2025",
+  "blurb": "Fieldwork and hikes through the backcountry I mapped with Los Padres ForestWatch.",
+  "category": "field",
+  "lat": 34.69,
+  "lng": -119.55,
+  "photos": [
+   {
+    "src": "media/photos/los-padres/01.webp",
+    "thumb": "media/photos/los-padres/01-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 1 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/los-padres/02.webp",
+    "thumb": "media/photos/los-padres/02-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 2 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/los-padres/03.webp",
+    "thumb": "media/photos/los-padres/03-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 3 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/los-padres/04.webp",
+    "thumb": "media/photos/los-padres/04-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 4 (replace with your own)",
+    "date": null
+   }
+  ],
+  "sample": true
+ },
+ {
+  "slug": "lusaka",
+  "title": "Lusaka & the Zambian countryside",
+  "region": "Zambia",
+  "date": "2025-07",
+  "blurb": "A summer with the University of Zambia, visiting irrigated plots I had only seen from space.",
+  "category": "field",
+  "lat": -15.42,
+  "lng": 28.28,
+  "photos": [
+   {
+    "src": "media/photos/lusaka/01.webp",
+    "thumb": "media/photos/lusaka/01-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 1 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/lusaka/02.webp",
+    "thumb": "media/photos/lusaka/02-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 2 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/lusaka/03.webp",
+    "thumb": "media/photos/lusaka/03-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 3 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/lusaka/04.webp",
+    "thumb": "media/photos/lusaka/04-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 4 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/lusaka/05.webp",
+    "thumb": "media/photos/lusaka/05-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 5 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/lusaka/06.webp",
+    "thumb": "media/photos/lusaka/06-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 6 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/lusaka/07.webp",
+    "thumb": "media/photos/lusaka/07-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 7 (replace with your own)",
+    "date": null
+   }
+  ],
+  "sample": true
+ },
+ {
+  "slug": "whakatane",
+  "title": "Whakatāne",
+  "region": "Bay of Plenty, New Zealand",
+  "date": "2024-08",
+  "blurb": "Tracking kiwi chicks through the native bush.",
+  "category": "nature",
+  "lat": -37.95,
+  "lng": 176.99,
+  "photos": [
+   {
+    "src": "media/photos/whakatane/01.webp",
+    "thumb": "media/photos/whakatane/01-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 1 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/whakatane/02.webp",
+    "thumb": "media/photos/whakatane/02-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 2 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/whakatane/03.webp",
+    "thumb": "media/photos/whakatane/03-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 3 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/whakatane/04.webp",
+    "thumb": "media/photos/whakatane/04-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 4 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/whakatane/05.webp",
+    "thumb": "media/photos/whakatane/05-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 5 (replace with your own)",
+    "date": null
+   }
+  ],
+  "sample": true
+ },
+ {
+  "slug": "colombia",
+  "title": "Andes of Boyacá",
+  "region": "Colombia",
+  "date": "2023-09",
+  "blurb": "Farming in the Andes with WWOOF.",
+  "category": "travel",
+  "lat": 5.53,
+  "lng": -73.36,
+  "photos": [
+   {
+    "src": "media/photos/colombia/01.webp",
+    "thumb": "media/photos/colombia/01-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 1 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/colombia/02.webp",
+    "thumb": "media/photos/colombia/02-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 2 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/colombia/03.webp",
+    "thumb": "media/photos/colombia/03-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 3 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/colombia/04.webp",
+    "thumb": "media/photos/colombia/04-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 4 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/colombia/05.webp",
+    "thumb": "media/photos/colombia/05-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 5 (replace with your own)",
+    "date": null
+   }
+  ],
+  "sample": true
+ },
+ {
+  "slug": "bryce",
+  "title": "Bryce Canyon",
+  "region": "Utah, USA",
+  "date": "2024",
+  "blurb": "Hoodoos at sunrise.",
+  "category": "nature",
+  "lat": 37.59,
+  "lng": -112.19,
+  "photos": [
+   {
+    "src": "media/photos/bryce/01.webp",
+    "thumb": "media/photos/bryce/01-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 1 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/bryce/02.webp",
+    "thumb": "media/photos/bryce/02-thumb.webp",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Sample photo 2 (replace with your own)",
+    "date": null
+   },
+   {
+    "src": "media/photos/bryce/03.webp",
+    "thumb": "media/photos/bryce/03-thumb.webp",
+    "w": 1067,
+    "h": 1500,
+    "caption": "Sample photo 3 (replace with your own)",
+    "date": null
+   }
+  ],
+  "sample": true
+ }
+]

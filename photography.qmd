@@ -1,0 +1,62 @@
+---
+pagetitle: "Photography · Jackson Coldiron"
+description: "Landscapes, field sites, and travels, mapped."
+page-layout: full
+toc: false
+include-in-header:
+  text: |
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <link rel="stylesheet" href="assets/photo-map.css">
+---
+
+<!--
+  PHOTOGRAPHY MAP
+  Content comes from data/places.json, which scripts/build_photos.py generates
+  from photos-inbox/. You shouldn't need to edit this file to add photos.
+-->
+
+::: {.column-screen}
+```{=html}
+<section class="pm-wrap">
+  <div id="pm-map" aria-label="Map of photo locations"></div>
+
+  <div class="pm-panel">
+    <div class="eyebrow">Field notes</div>
+    <h1 class="pm-title">Photography</h1>
+    <p class="pm-intro">Landscapes, field sites, and places that shaped how I see land and water.
+      Click a circle to open the gallery.</p>
+    <div class="pm-legend">
+      <span><i class="field"></i>Fieldwork</span>
+      <span><i class="nature"></i>Nature</span>
+      <span><i class="travel"></i>Travel</span>
+    </div>
+    <ol class="pm-list" id="pm-list"></ol>
+    <p class="pm-sample" id="pm-sample" hidden><i class="bi bi-info-circle"></i> Sample images shown. Real photos coming soon.</p>
+  </div>
+</section>
+
+<!-- Carousel modal -->
+<div class="pm-modal" id="pm-modal" role="dialog" aria-modal="true" aria-labelledby="pm-m-title" hidden>
+  <div class="pm-m-head">
+    <div>
+      <div class="pm-m-region" id="pm-m-region"></div>
+      <h2 class="pm-m-title" id="pm-m-title"></h2>
+    </div>
+    <button class="pm-btn pm-close" id="pm-close" aria-label="Close gallery"><i class="bi bi-x-lg"></i></button>
+  </div>
+  <div class="pm-stage">
+    <button class="pm-btn pm-prev" id="pm-prev" aria-label="Previous photo"><i class="bi bi-chevron-left"></i></button>
+    <div class="pm-figure">
+      <img id="pm-img" alt="">
+      <div class="pm-caption"><span id="pm-cap"></span><span class="pm-count" id="pm-count"></span></div>
+    </div>
+    <button class="pm-btn pm-next" id="pm-next" aria-label="Next photo"><i class="bi bi-chevron-right"></i></button>
+  </div>
+  <p class="pm-m-blurb" id="pm-m-blurb"></p>
+  <div class="pm-thumbs" id="pm-thumbs"></div>
+</div>
+
+<script src="assets/photo-map.js"></script>
+```
+:::

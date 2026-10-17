@@ -1,0 +1,87 @@
+# =============================================================
+#  Jackson Coldiron — brand file
+#  Quarto reads this automatically and applies it to the whole site.
+#  Change a hex value here, re-render, and every page updates.
+#  The visual brand guide lives at brand.qmd (/brand.html).
+# =============================================================
+
+meta:
+  name: Jackson Coldiron
+  link:
+    home: https://jacksoncoldiron.github.io
+    github: https://github.com/jacksoncoldiron
+    linkedin: https://www.linkedin.com/in/jackson-coldiron/
+
+logo:
+  images:
+    mark: assets/favicon.svg
+  small: mark
+
+color:
+  palette:
+    # --- Core: the ltc "ploen" palette ---------------------------
+    slate:      "#3F5671"   # deep dusk blue — headings, primary buttons, ink on light
+    periwinkle: "#83A1C3"   # soft sky — secondary accents, map markers, borders
+    lavender:   "#CEB5C8"   # dune lavender — highlights, tags, hover states
+    apricot:    "#FAC898"   # desert apricot — warm accent, sparingly
+    rose:       "#B17776"   # dusty rose — rare emphasis, data highlights
+
+    # --- Extensions: blue-green "water & land" tones -------------
+    seafoam:    "#A8D5CF"   # shallow water — wave bands, cards
+    eucalyptus: "#3F726E"   # deep green-blue — links (AA on mist)
+    sage:       "#9DB8A6"   # dry grassland — tertiary data color
+
+    # --- Neutrals ------------------------------------------------
+    ink:        "#1E2A3A"   # body text
+    muted:      "#5B6577"   # secondary text (AA on mist)
+    plum:       "#6B5A7E"   # eyebrow labels / small caps (AA on mist)
+    mist:       "#F7F5FA"   # page background (cool off-white with a lavender cast)
+    haze:       "#ECE6F2"   # card / section tint
+    sand:       "#F8EEE3"   # warm section tint
+    white:      "#FFFFFF"
+
+  background: mist
+  foreground: ink
+  primary: slate
+  secondary: periwinkle
+  tertiary: lavender
+  success: eucalyptus
+  info: periwinkle
+  warning: apricot
+  danger: rose
+  light: haze
+  dark: ink
+
+typography:
+  fonts:
+    - family: Fraunces
+      source: google
+      weight: [300, 400, 500, 600]
+      style: [normal, italic]
+    - family: Inter
+      source: google
+      weight: [300, 400, 500, 600]
+      style: [normal]
+    - family: IBM Plex Mono
+      source: google
+      weight: [400, 500]
+      style: [normal]
+
+  base:
+    family: Inter
+    size: 17px
+    line-height: 1.7
+
+  headings:
+    family: Fraunces
+    weight: 400
+    color: slate
+    line-height: 1.2
+
+  monospace:
+    family: IBM Plex Mono
+    size: 0.9em
+
+  link:
+    color: eucalyptus
+    decoration: none

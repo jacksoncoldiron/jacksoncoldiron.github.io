@@ -2,17 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Apps, analyses, and open code: the tools behind the research.">
 
-<title>Projects – Jackson Coldiron</title>
+<title>Projects &amp; Code – Jackson Coldiron</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -30,20 +37,21 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0f05cba98e93abd5bfacabf37e46c573.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-36489fe9f95e83378e31b3375ef0b6a4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0f05cba98e93abd5bfacabf37e46c573.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ccd81253fefb92e9cd3f9eb5b5d87b54.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-701c8498ebe248790482a5d229f808d5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c93a48a7651b3a8e94c027ff3dbcb355.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-701c8498ebe248790482a5d229f808d5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,180 +79,43 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #1E2A3A;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #1E2A3A;
+background-image: url(assets/waves-banner.svg);
+background-size: cover;
+      }
+</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Projects &amp; Code – Jackson Coldiron">
+<meta property="og:description" content="Apps, analyses, and open code: the tools behind the research.">
+<meta property="og:site_name" content="Jackson Coldiron">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Jackson Coldiron</span>
     </a>
@@ -255,10 +126,8 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
@@ -268,148 +137,202 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cool-places.html"> 
-<span class="menu-text">Cool Places</span></a>
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./photography.html"> 
+<span class="menu-text">Photography</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/jacksoncoldiron"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/jacksoncoldiron/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+    <a class="nav-link" href="https://www.linkedin.com/in/jackson-coldiron/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jcoldiron@bren.ucsb.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Projects &amp; Code</h1>
+                  <div>
+        <div class="description">
+          Apps, analyses, and open code: the tools behind the research.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#independent-projects" id="toc-independent-projects" class="nav-link active" data-scroll-target="#independent-projects">Independent Projects</a>
-  <ul class="collapse">
-  <li><a href="#multifunctional-landscapes" id="toc-multifunctional-landscapes" class="nav-link" data-scroll-target="#multifunctional-landscapes">Multifunctional Landscapes</a></li>
-  <li><a href="#remote-sensing-of-irrigation-drought-sif-analysis" id="toc-remote-sensing-of-irrigation-drought-sif-analysis" class="nav-link" data-scroll-target="#remote-sensing-of-irrigation-drought-sif-analysis">Remote Sensing of Irrigation &amp; Drought — SIF Analysis</a></li>
-  <li><a href="#intercropping-meta-analysis-shiny-app" id="toc-intercropping-meta-analysis-shiny-app" class="nav-link" data-scroll-target="#intercropping-meta-analysis-shiny-app">Intercropping Meta-Analysis — Shiny App</a></li>
-  </ul></li>
-  <li><a href="#collaborative-projects" id="toc-collaborative-projects" class="nav-link" data-scroll-target="#collaborative-projects">Collaborative Projects</a>
-  <ul class="collapse">
-  <li><a href="#iplc-climate-nexus-amazonia-climate-risk-analysis" id="toc-iplc-climate-nexus-amazonia-climate-risk-analysis" class="nav-link" data-scroll-target="#iplc-climate-nexus-amazonia-climate-risk-analysis">IPLC Climate Nexus — Amazonia Climate Risk Analysis</a></li>
-  <li><a href="#smallholder-irrigation-dataset-zambia" id="toc-smallholder-irrigation-dataset-zambia" class="nav-link" data-scroll-target="#smallholder-irrigation-dataset-zambia">Smallholder Irrigation Dataset — Zambia</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta column-page-left">
 
-    
-  
-    
+
+<!--
+  PROJECTS PAGE: each card is an <a class="jc-card"> or <div class="jc-card">.
+  Private repos show a lock label instead of a link. If you make a repo public,
+  swap the <span class="private"> for a real <a href="..."> link.
+-->
+<div class="wrap" style="padding:0">
+
+<div class="eyebrow">Featured</div>
+<h2 class="section-title anchored">Research tools &amp; apps</h2>
+<div class="card-grid two">
+
+  <div class="jc-card lift">
+    <div class="card-meta">Interactive site · SGMA · 2026</div>
+    <h3 class="anchored">Accounting for Groundwater</h3>
+    <p>A cross-basin portfolio analysis of how California groundwater agencies measure, account for, and act on
+    interconnected surface water, multi-benefit land repurposing, and community outcomes. A Python build step turns
+    coded findings into client-side explorers.</p>
+    <div class="tags"><span class="tag water">Groundwater</span><span class="tag">Quarto</span><span class="tag">Python</span><span class="tag">JavaScript</span></div>
+    <div class="card-links">
+      <a href="https://jacksoncoldiron.github.io/groundwater-accounting-portfolio/"><i class="bi bi-window"></i> Live site</a>
+      <a href="https://github.com/jacksoncoldiron/groundwater-accounting-portfolio"><i class="bi bi-github"></i> Code</a>
+    </div>
   </div>
-  
 
+  <div class="jc-card lift">
+    <div class="card-meta">R Shiny · Zambia · 2025</div>
+    <h3 class="anchored">Zambia Smallholder Irrigation Explorer</h3>
+    <p>A data explorer built for Zambian researchers, NGOs, and government partners to browse where dry-season
+    smallholder irrigation was detected across the country, from 2,325 labeled satellite images at 933 sites.</p>
+    <div class="tags"><span class="tag water">Irrigation</span><span class="tag">Shiny</span><span class="tag">leaflet</span><span class="tag">sf</span></div>
+    <div class="card-links">
+      <!-- EDIT: add the deployed app URL here when available -->
+      <span class="private"><i class="bi bi-lock"></i> Lab repository (private)</span>
+    </div>
+  </div>
 
-</header>
+  <div class="jc-card lift">
+    <div class="card-meta">R Shiny · Agroecology · 2025</div>
+    <h3 class="anchored">Intercropping Meta-Analysis App</h3>
+    <p>Explore a global meta-analysis of intercropping experiments with map, time-series, and crop-pair views,
+    plus a PCA on land-equivalent ratios to see what drives yield gains and input reductions.</p>
+    <div class="tags"><span class="tag land">Intercropping</span><span class="tag">Shiny</span><span class="tag">PCA</span></div>
+    <div class="card-links">
+      <a href="https://github.com/jacksoncoldiron/shiny_intercropping_jc_nd_ig"><i class="bi bi-github"></i> Code</a>
+      <!-- EDIT: add <a href="https://...shinyapps.io/...">Live app</a> if deployed -->
+    </div>
+  </div>
 
+  <div class="jc-card lift">
+    <div class="card-meta">Python · Remote sensing · 2025–26</div>
+    <h3 class="anchored">SIF, Irrigation &amp; Drought</h3>
+    <p>OCO-2 solar-induced fluorescence and Cropland Data Layer analysis of seasonal cycles, diurnal patterns, and
+    drought impacts in agricultural areas, the starting point for the irrigation-buffering study.</p>
+    <div class="tags"><span class="tag water">SIF</span><span class="tag">xarray</span><span class="tag">rasterio</span><span class="tag">Jupyter</span></div>
+    <div class="card-links">
+      <a href="https://github.com/jacksoncoldiron/SIF-Analysis"><i class="bi bi-github"></i> Code</a>
+    </div>
+  </div>
 
-<section id="independent-projects" class="level2">
-<h2 class="anchored" data-anchor-id="independent-projects">Independent Projects</h2>
-<section id="multifunctional-landscapes" class="level3">
-<h3 class="anchored" data-anchor-id="multifunctional-landscapes">Multifunctional Landscapes</h3>
-<p><strong><a href="https://github.com/jacksoncoldiron/multifunctional-landscapes">View on GitHub</a></strong></p>
-<p>Spatial feasibility analysis for agroforestry and agrivoltaic systems across Sub-Saharan Africa. Built a raster harmonization pipeline in R to integrate multi-source geospatial datasets at 1 km resolution and apply threshold-based multi-criteria suitability analysis. Part of the Arnhold Fellowship / SPARCLE Project with Conservation International and the Ashley Larsen Lab at UCSB.</p>
-<p><strong>Tools:</strong> R · Google Earth Engine · QGIS · Quarto</p>
-<hr>
-</section>
-<section id="remote-sensing-of-irrigation-drought-sif-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="remote-sensing-of-irrigation-drought-sif-analysis">Remote Sensing of Irrigation &amp; Drought — SIF Analysis</h3>
-<p><strong><a href="https://github.com/jacksoncoldiron/SIF-Analysis">View on GitHub</a></strong></p>
-<p>Isolates the human contribution to evapotranspiration in Midwestern croplands by integrating ECOSTRESS and NLDAS modeled ET data. Computes solar-induced chlorophyll fluorescence (SIF) anomalies and lagged ET correlations to detect where irrigation sustains yields during drought while amplifying heat extremes.</p>
-<p><strong>Tools:</strong> Python · Google Earth Engine · xarray · rasterio · matplotlib</p>
-<hr>
-</section>
-<section id="intercropping-meta-analysis-shiny-app" class="level3">
-<h3 class="anchored" data-anchor-id="intercropping-meta-analysis-shiny-app">Intercropping Meta-Analysis — Shiny App</h3>
-<p><strong><a href="https://github.com/jacksoncoldiron/shiny_intercropping_jc_nd_ig">View on GitHub</a></strong></p>
-<p>Interactive R Shiny app for exploring a global meta-analysis of intercropping experiments. Features map, time-series, and crop-pair views for investigating study occurrence and yield impacts. Implements a principal component analysis on land equivalent ratio metrics to identify drivers of yield gains and input reductions.</p>
-<p><strong>Tools:</strong> R · Shiny · ggplot2</p>
-<hr>
-</section>
-</section>
-<section id="collaborative-projects" class="level2">
-<h2 class="anchored" data-anchor-id="collaborative-projects">Collaborative Projects</h2>
-<section id="iplc-climate-nexus-amazonia-climate-risk-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="iplc-climate-nexus-amazonia-climate-risk-analysis">IPLC Climate Nexus — Amazonia Climate Risk Analysis</h3>
-<p><strong><a href="https://github.com/IPLC-Climate-Nexus/main-analysis">View on GitHub</a></strong></p>
-<p>Group project in partnership with Conservation International’s Global IPLC Center. Assesses how climate risks intersect with Indigenous Peoples &amp; Local Communities territories across Amazonia to identify lands suitable for Nature-based Solutions intervention. Roles span spatial data management, R modeling, and ArcGIS Pro analysis.</p>
-<p><strong>Tools:</strong> R · ArcGIS Pro · Python</p>
-<hr>
-</section>
-<section id="smallholder-irrigation-dataset-zambia" class="level3">
-<h3 class="anchored" data-anchor-id="smallholder-irrigation-dataset-zambia">Smallholder Irrigation Dataset — Zambia</h3>
-<p><strong><a href="https://github.com/anna-boser/smallholder-irrigation-dataset">View on GitHub</a></strong></p>
-<p>Collaborative dataset and analysis revealing 400 km² of previously undocumented small-scale dry-season irrigation across Zambia through geospatial statistical analysis of satellite imagery. Includes a benchmark ML labeling dataset (2,325 labeled images across 933 locations) and an R Shiny app for stakeholder data access.</p>
-<p><strong>Tools:</strong> R · Shiny · Google Earth Engine · Python</p>
-<hr>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>For a full list of repositories, visit my <a href="https://github.com/jacksoncoldiron">GitHub profile</a>.</p>
-</div>
+  <div class="jc-card lift">
+    <div class="card-meta">R · Arnhold Fellowship · 2025–26</div>
+    <h3 class="anchored">Multifunctional Landscapes (SPARCLE)</h3>
+    <p>Raster harmonization and multi-criteria suitability pipeline for agroforestry and agrivoltaics across
+    Sub-Saharan Africa at 1 km, under SSP1-2.6 and SSP3-7.0.</p>
+    <div class="tags"><span class="tag land">Agroforestry</span><span class="tag sand">Agrivoltaics</span><span class="tag">terra</span><span class="tag">Earth Engine</span></div>
+    <div class="card-links"><span class="private"><i class="bi bi-lock"></i> Private until publication</span></div>
+  </div>
+
+  <div class="jc-card lift">
+    <div class="card-meta">R · ArcGIS Pro · 2025–26</div>
+    <h3 class="anchored">IPLC Climate Nexus: Amazonia</h3>
+    <p>Group project with Conservation International mapping climate risk across Indigenous and local community
+    territories and prioritizing lands for conservation and restoration.</p>
+    <div class="tags"><span class="tag land">Amazonia</span><span class="tag">prioritizr</span><span class="tag">ArcGIS Pro</span></div>
+    <div class="card-links"><span class="private"><i class="bi bi-lock"></i> Group repository (private)</span></div>
+  </div>
+
 </div>
 
+<div class="eyebrow" style="margin-top:3rem">Geospatial analyses</div>
+<h2 class="section-title anchored">Smaller studies &amp; coursework</h2>
+<div class="card-grid">
 
-</section>
-</section>
+  <a class="jc-card" href="https://github.com/jacksoncoldiron/aquaculture-suitability-analysis">
+    <div class="card-meta">R · Marine spatial planning</div>
+    <h3 class="anchored">West Coast Aquaculture Suitability</h3>
+    <p>Which West Coast EEZs suit Pacific oysters and giant kelp, based on sea-surface temperature and depth,
+    with a San Francisco Bay case study.</p>
+    <div class="tags"><span class="tag water">Ocean</span><span class="tag">terra</span></div>
+  </a>
+
+  <a class="jc-card" href="https://github.com/jacksoncoldiron/Texas-WinterStorm-Blackout-Analysis">
+    <div class="card-meta">R · Night lights</div>
+    <h3 class="anchored">Texas Winter Storm Blackouts</h3>
+    <p>VIIRS night lights, OpenStreetMap, and census data to find which Houston homes lost power in the February
+    2021 storm and whether outages fell harder on lower-income areas.</p>
+    <div class="tags"><span class="tag">VIIRS</span><span class="tag">sf · stars</span></div>
+  </a>
+
+  <a class="jc-card" href="https://github.com/jacksoncoldiron/Redlining-EJ-LosAngeles">
+    <div class="card-meta">R · Environmental justice</div>
+    <h3 class="anchored">Redlining &amp; Environmental Justice in LA</h3>
+    <p>How 1930s HOLC redlining grades track today's PM2.5, income, and life-expectancy burdens, and how they bias
+    where citizen scientists record birds.</p>
+    <div class="tags"><span class="tag dune">EJ</span><span class="tag">tmap</span></div>
+  </a>
+
+  <a class="jc-card" href="https://github.com/jacksoncoldiron/ESM232_AlmondModel">
+    <div class="card-meta">R · Environmental modeling</div>
+    <h3 class="anchored">Almond Yield &amp; Climate</h3>
+    <p>A reproducible, function-based R model of almond yield anomalies as a function of temperature and
+    precipitation drivers.</p>
+    <div class="tags"><span class="tag land">Agriculture</span><span class="tag">Modeling</span></div>
+  </a>
+
+  <a class="jc-card" href="https://github.com/jacksoncoldiron/LPFW_RiskReduction_GIS">
+    <div class="card-meta">R · Conservation GIS</div>
+    <h3 class="anchored">Los Padres Fuel-Reduction GIS</h3>
+    <p>Geospatial processing behind Los Padres ForestWatch's review of proposed Forest Service fuel-reduction
+    projects.</p>
+    <div class="tags"><span class="tag land">Chaparral</span><span class="tag">sf</span></div>
+  </a>
+
+</div>
+
+<p class="muted" style="margin:2rem 0 3rem">More on <a href="https://github.com/jacksoncoldiron">GitHub <i class="bi bi-arrow-up-right"></i></a></p>
+
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -459,13 +382,14 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -480,7 +404,7 @@ Note
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/jacksoncoldiron\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -494,6 +418,11 @@ Note
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -811,13 +740,24 @@ Note
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© 2026 Jackson Coldiron · Santa Barbara, California</p>
+</div>   
     <div class="nav-footer-center">
-<p>© 2025 Jackson Coldiron | Built with <a href="https://quarto.org">Quarto</a></p>
-</div>
-    <div class="nav-footer-right">
       &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./brand.html">
+<p>Brand guide</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org">
+<p>Built with Quarto</p>
+</a>
+  </li>  
+</ul>
     </div>
   </div>
 </footer>
@@ -825,4 +765,5 @@ Note
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

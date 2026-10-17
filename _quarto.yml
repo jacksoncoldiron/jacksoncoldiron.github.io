@@ -1,36 +1,61 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - assets/
+    - data/
+    - media/photos/
+    - media/*.pdf
+    - media/headshot.jpg
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+    - "!scripts/"
 
 website:
   title: "Jackson Coldiron"
+  description: "Environmental scientist working on water, agriculture, and land systems with remote sensing and geospatial modeling."
+  site-url: https://jacksoncoldiron.github.io
+  favicon: assets/favicon.svg
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: false
   navbar:
-    left:
-      - href: index.qmd
-        text: About
+    left: []
+    right:
       - href: research.qmd
         text: Research
       - href: projects.qmd
         text: Projects
-      - href: cool-places.qmd
-        text: Cool Places
-    right:
+      - href: cv.qmd
+        text: CV
+      - href: photography.qmd
+        text: Photography
       - icon: github
         href: https://github.com/jacksoncoldiron
         aria-label: GitHub
       - icon: linkedin
-        href: https://www.linkedin.com/in/jacksoncoldiron/
+        href: https://www.linkedin.com/in/jackson-coldiron/
         aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:jcoldiron@bren.ucsb.edu
+        aria-label: Email
 
   page-footer:
-    center: "© 2025 Jackson Coldiron | Built with [Quarto](https://quarto.org)"
+    left: "© 2026 Jackson Coldiron · Santa Barbara, California"
+    right:
+      - text: "Brand guide"
+        href: brand.qmd
+      - text: "Built with Quarto"
+        href: https://quarto.org
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
-    css: styles.css
+    theme: [cosmo, brand, styles.scss]
     toc: false
     page-layout: full
+    smooth-scroll: true
     lightbox: true
+    link-external-newwindow: true
+    title-block-banner: assets/waves-banner.svg
+    title-block-banner-color: "#1E2A3A"

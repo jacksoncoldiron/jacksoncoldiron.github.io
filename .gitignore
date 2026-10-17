@@ -1,0 +1,18 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+
+# Quarto cache
+.quarto/
+/.quarto/
+
+# Original photo exports (only the optimized copies in media/photos/ are published)
+photos-inbox/
+
+.DS_Store
+
+**/*.quarto_ipynb
+
+# Local Claude Code settings
+.claude/settings.local.json

@@ -1,0 +1,132 @@
+/* Photography map + carousel */
+
+.pm-wrap {
+  grid-column: screen-start / screen-end;
+  position: relative;
+  height: calc(100vh - 64px);
+  min-height: 560px;
+  margin-top: -1rem;
+}
+#pm-map {
+  position: absolute;
+  inset: 0;
+  background: #E9EEF3;
+}
+/* soften the basemap into the brand palette */
+#pm-map .leaflet-tile-pane {
+  filter: grayscale(1) sepia(0.25) hue-rotate(185deg) saturate(1.6) brightness(1.04) contrast(0.92);
+}
+#pm-map::after { /* lavender wash over tiles */
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(160deg, rgba(206, 181, 200, 0.18), rgba(168, 213, 207, 0.16));
+  pointer-events: none;
+  z-index: 250;
+}
+.leaflet-container { font-family: "Inter", system-ui, sans-serif; }
+.leaflet-control-attribution { background: rgba(247, 245, 250, 0.8) !important; font-size: 10px; }
+.leaflet-control-zoom a { color: #3F5671 !important; border-radius: 10px !important; }
+.leaflet-control-zoom { border: 1px solid rgba(63,86,113,.15) !important; border-radius: 12px !important; overflow: hidden; }
+
+/* markers */
+.pm-marker { cursor: pointer; transition: filter .15s ease; }
+.pm-marker:hover { filter: drop-shadow(0 0 8px rgba(63, 86, 113, 0.45)); }
+
+.leaflet-tooltip.pm-tip {
+  background: rgba(255, 255, 255, 0.96);
+  border: 0;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(30, 42, 58, 0.18);
+  padding: 6px;
+  color: #1E2A3A;
+}
+.leaflet-tooltip.pm-tip::before { display: none; }
+.pm-tip img { width: 180px; height: 110px; object-fit: cover; border-radius: 10px; display: block; }
+.pm-tip .t { font-family: "Fraunces", Georgia, serif; font-size: 15px; padding: 6px 4px 0; }
+.pm-tip .s { font-size: 11px; color: #5B6577; padding: 0 4px 2px; }
+
+/* floating panel */
+.pm-panel {
+  position: absolute;
+  z-index: 500;
+  top: 1.5rem; left: 1.5rem; bottom: 1.5rem;
+  width: 340px;
+  display: flex; flex-direction: column;
+  background: rgba(247, 245, 250, 0.82);
+  backdrop-filter: blur(14px) saturate(130%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1.5rem;
+  padding: 1.6rem 1.4rem 1rem;
+  box-shadow: 0 1px 2px rgba(30,42,58,.04), 0 12px 40px rgba(63,86,113,.14);
+}
+.pm-title { font-family: "Fraunces", Georgia, serif; font-weight: 400; font-size: 2.2rem; color: #1E2A3A; margin: 0 0 .5rem; }
+.pm-intro { font-size: .93rem; color: #5B6577; margin-bottom: .9rem; }
+.pm-legend { display: flex; gap: 1rem; font-size: .78rem; color: #5B6577; margin-bottom: .9rem; }
+.pm-legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.pm-legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; border: 1.5px solid #fff; box-shadow: 0 0 0 1px rgba(63,86,113,.25); }
+.pm-legend .field, .pm-dot.field { background: #6FB3AB; }
+.pm-legend .nature, .pm-dot.nature { background: #9DB8A6; }
+.pm-legend .travel, .pm-dot.travel { background: #B9A3D0; }
+
+.pm-list { list-style: none; padding: 0; margin: 0 -.4rem; overflow-y: auto; flex: 1; }
+.pm-list li {
+  display: grid; grid-template-columns: 56px 1fr; gap: .8rem; align-items: center;
+  padding: .5rem .4rem; border-radius: 12px; cursor: pointer;
+  transition: background .15s ease;
+}
+.pm-list li:hover, .pm-list li:focus-visible { background: rgba(255,255,255,.85); outline: none; }
+.pm-list img { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; }
+.pm-list .n { font-family: "Fraunces", Georgia, serif; font-size: 1rem; color: #1E2A3A; line-height: 1.25; }
+.pm-list .m { font-size: .76rem; color: #5B6577; display: flex; align-items: center; gap: .35rem; }
+.pm-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.pm-sample { font-size: .76rem; color: #6B5A7E; margin: .6rem 0 0; }
+
+/* modal */
+.pm-modal {
+  position: fixed; inset: 0; z-index: 2000;
+  display: flex; flex-direction: column;
+  background: rgba(22, 30, 42, 0.94);
+  backdrop-filter: blur(6px);
+  color: #F7F5FA;
+  padding: 1.2rem 1.5rem 1rem;
+  animation: pmFade .2s ease;
+}
+.pm-modal[hidden] { display: none; }
+@keyframes pmFade { from { opacity: 0 } to { opacity: 1 } }
+.pm-m-head { display: flex; justify-content: space-between; align-items: flex-start; max-width: 1400px; width: 100%; margin: 0 auto; }
+.pm-m-region { font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: #CEB5C8; }
+.pm-m-title { border-bottom: 0 !important; padding-bottom: 0; font-family: "Fraunces", Georgia, serif; font-weight: 400; font-size: 1.8rem; color: #fff; margin: .1rem 0 0; }
+.pm-stage { flex: 1 1 auto; display: flex; align-items: center; gap: 1rem; min-height: 0; width: 100%; max-width: 1400px; margin: 0 auto; }
+.pm-stage > .pm-btn { flex: 0 0 auto; }
+.pm-figure { flex: 1 1 auto; min-width: 0; margin: 0; height: 100%; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.pm-figure img {
+  max-width: 100%; max-height: calc(100vh - 260px);
+  object-fit: contain; border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  transition: opacity .2s ease;
+}
+.pm-figure .pm-caption { display: flex; gap: 1rem; justify-content: space-between; width: 100%; max-width: 900px; font-size: .88rem; color: #D9D4E2; padding-top: .7rem; }
+.pm-count { font-family: "IBM Plex Mono", monospace; font-size: .78rem; color: #A9B4C6; white-space: nowrap; }
+.pm-m-blurb { text-align: center; color: #C9D2DE; font-size: .92rem; margin: .4rem auto .6rem; max-width: 760px; }
+.pm-btn {
+  width: 46px; height: 46px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.08);
+  color: #fff; display: grid; place-items: center; font-size: 1.1rem;
+  transition: background .15s ease;
+}
+.pm-btn:hover { background: rgba(255,255,255,.2); }
+.pm-thumbs { display: flex; gap: .5rem; justify-content: center; overflow-x: auto; padding: .3rem 0; }
+.pm-thumbs button { border: 0; padding: 0; background: none; opacity: .5; border-radius: 8px; overflow: hidden; flex: 0 0 auto; transition: opacity .15s ease; outline-offset: 2px; }
+.pm-thumbs button.on, .pm-thumbs button:hover { opacity: 1; }
+.pm-thumbs button.on { outline: 2px solid #CEB5C8; }
+.pm-thumbs img { width: 72px; height: 52px; object-fit: cover; display: block; }
+
+@media (max-width: 800px) {
+  .pm-wrap { height: auto; }
+  #pm-map { position: relative; height: 62vh; }
+  .pm-panel { position: relative; inset: auto; width: auto; margin: -2rem 1rem 1.5rem; }
+  .pm-list { max-height: none; }
+  .pm-prev, .pm-next { display: none; }
+  .pm-modal { padding: 1rem .75rem; }
+}
+
