@@ -54,8 +54,10 @@
       list.appendChild(li);
     });
     if (bounds.length) {
-      const wide = window.innerWidth > 800;
+      // leave room for the side panel only when the map is wide enough to spare it
+      const wide = map.getSize().x > 1100;
       map.fitBounds(bounds, { paddingTopLeft: [wide ? 380 : 30, 40], paddingBottomRight: [40, 40], maxZoom: 6 });
+      if (map.getZoom() > 4 && bounds.length > 1) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 6 });
     }
   }
 
