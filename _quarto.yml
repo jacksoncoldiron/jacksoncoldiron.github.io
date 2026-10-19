@@ -7,6 +7,9 @@ project:
     - media/photos/
     - media/*.pdf
     - media/headshot.jpg
+    - research.html     # redirect stubs: old page URLs → sections on the home page
+    - projects.html
+    - cv.html
   render:
     - "*.qmd"
     - "!CLAUDE.md"
@@ -23,12 +26,12 @@ website:
   navbar:
     left: []
     right:
-      - href: research.qmd
+      - href: index.qmd#research
         text: Research
-      - href: projects.qmd
+      - href: index.qmd#projects
         text: Projects
-      - href: cv.qmd
-        text: CV
+      - href: index.qmd#experience
+        text: Experience
       - href: photography.qmd
         text: Photography
       - icon: github

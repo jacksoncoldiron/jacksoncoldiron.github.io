@@ -1,320 +1,2810 @@
 [
  {
-  "slug": "santa-barbara",
-  "title": "Santa Barbara & the Gaviota Coast",
-  "region": "California, USA",
-  "date": "2025",
-  "blurb": "Home base for grad school: chaparral ridgelines, oak woodland, and the Dangermond Preserve.",
-  "category": "field",
-  "lat": 34.42,
-  "lng": -119.7,
+  "slug": "bogota-colombia",
+  "title": "Bogotá",
+  "region": "Colombia",
+  "date": "2023-10",
+  "blurb": "",
+  "category": "travel",
+  "lat": 4.711,
+  "lng": -74.072,
   "photos": [
    {
-    "src": "media/photos/santa-barbara/01.webp",
-    "thumb": "media/photos/santa-barbara/01-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 1 (replace with your own)",
-    "date": null
+    "src": "media/photos/bogota-colombia/01.webp",
+    "thumb": "media/photos/bogota-colombia/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-10"
    },
    {
-    "src": "media/photos/santa-barbara/02.webp",
-    "thumb": "media/photos/santa-barbara/02-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 2 (replace with your own)",
-    "date": null
+    "src": "media/photos/bogota-colombia/02.webp",
+    "thumb": "media/photos/bogota-colombia/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-10"
    },
    {
-    "src": "media/photos/santa-barbara/03.webp",
-    "thumb": "media/photos/santa-barbara/03-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 3 (replace with your own)",
-    "date": null
+    "src": "media/photos/bogota-colombia/03.webp",
+    "thumb": "media/photos/bogota-colombia/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-10"
    },
    {
-    "src": "media/photos/santa-barbara/04.webp",
-    "thumb": "media/photos/santa-barbara/04-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 4 (replace with your own)",
-    "date": null
+    "src": "media/photos/bogota-colombia/04.webp",
+    "thumb": "media/photos/bogota-colombia/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-10"
    },
    {
-    "src": "media/photos/santa-barbara/05.webp",
-    "thumb": "media/photos/santa-barbara/05-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 5 (replace with your own)",
-    "date": null
-   },
-   {
-    "src": "media/photos/santa-barbara/06.webp",
-    "thumb": "media/photos/santa-barbara/06-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 6 (replace with your own)",
-    "date": null
+    "src": "media/photos/bogota-colombia/05.webp",
+    "thumb": "media/photos/bogota-colombia/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-10"
    }
-  ],
-  "sample": true
+  ]
  },
  {
-  "slug": "los-padres",
-  "title": "Los Padres National Forest",
-  "region": "California, USA",
-  "date": "2025",
-  "blurb": "Fieldwork and hikes through the backcountry I mapped with Los Padres ForestWatch.",
-  "category": "field",
-  "lat": 34.69,
-  "lng": -119.55,
+  "slug": "brycecanyonnationalpark",
+  "title": "Bryce Canyon National Park",
+  "region": "Utah, USA",
+  "date": "2024-07",
+  "blurb": "",
+  "category": "nature",
+  "lat": 37.593,
+  "lng": -112.187,
   "photos": [
    {
-    "src": "media/photos/los-padres/01.webp",
-    "thumb": "media/photos/los-padres/01-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 1 (replace with your own)",
-    "date": null
+    "src": "media/photos/brycecanyonnationalpark/01.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-08"
    },
    {
-    "src": "media/photos/los-padres/02.webp",
-    "thumb": "media/photos/los-padres/02-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 2 (replace with your own)",
-    "date": null
+    "src": "media/photos/brycecanyonnationalpark/02.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-08"
    },
    {
-    "src": "media/photos/los-padres/03.webp",
-    "thumb": "media/photos/los-padres/03-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 3 (replace with your own)",
-    "date": null
+    "src": "media/photos/brycecanyonnationalpark/03.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/03-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-07-08"
    },
    {
-    "src": "media/photos/los-padres/04.webp",
-    "thumb": "media/photos/los-padres/04-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 4 (replace with your own)",
-    "date": null
+    "src": "media/photos/brycecanyonnationalpark/04.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-08"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/05.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-08"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/06.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/06-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-07-08"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/07.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-08"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/08.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-08"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/09.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-09"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/10.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/10-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-09"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/11.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/11-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-07-09"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/12.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/12-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-09"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/13.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/13-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-07-09"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/14.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/14-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-07-09"
+   },
+   {
+    "src": "media/photos/brycecanyonnationalpark/15.webp",
+    "thumb": "media/photos/brycecanyonnationalpark/15-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-07-09"
    }
-  ],
-  "sample": true
+  ]
  },
  {
-  "slug": "lusaka",
-  "title": "Lusaka & the Zambian countryside",
+  "slug": "budapest-danuberiver",
+  "title": "Budapest",
+  "region": "Danube River · Hungary",
+  "date": "2024-08",
+  "blurb": "",
+  "category": "travel",
+  "lat": 47.498,
+  "lng": 19.04,
+  "photos": [
+   {
+    "src": "media/photos/budapest-danuberiver/01.webp",
+    "thumb": "media/photos/budapest-danuberiver/01-thumb.webp",
+    "w": 1800,
+    "h": 1325,
+    "caption": "",
+    "date": "2024-08-15"
+   }
+  ]
+ },
+ {
+  "slug": "buenosaires-argentina",
+  "title": "Buenos Aires",
+  "region": "Argentina",
+  "date": "2023-11",
+  "blurb": "",
+  "category": "travel",
+  "lat": -34.604,
+  "lng": -58.382,
+  "photos": [
+   {
+    "src": "media/photos/buenosaires-argentina/01.webp",
+    "thumb": "media/photos/buenosaires-argentina/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-28"
+   },
+   {
+    "src": "media/photos/buenosaires-argentina/02.webp",
+    "thumb": "media/photos/buenosaires-argentina/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-28"
+   },
+   {
+    "src": "media/photos/buenosaires-argentina/03.webp",
+    "thumb": "media/photos/buenosaires-argentina/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-28"
+   },
+   {
+    "src": "media/photos/buenosaires-argentina/04.webp",
+    "thumb": "media/photos/buenosaires-argentina/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-30"
+   },
+   {
+    "src": "media/photos/buenosaires-argentina/05.webp",
+    "thumb": "media/photos/buenosaires-argentina/05-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-11-30"
+   }
+  ]
+ },
+ {
+  "slug": "certaldo-france",
+  "title": "Certaldo",
+  "region": "Tuscany, Italy",
+  "date": "2023-08",
+  "blurb": "",
+  "category": "travel",
+  "lat": 43.548,
+  "lng": 11.041,
+  "photos": [
+   {
+    "src": "media/photos/certaldo-france/01.webp",
+    "thumb": "media/photos/certaldo-france/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-08-29"
+   },
+   {
+    "src": "media/photos/certaldo-france/02.webp",
+    "thumb": "media/photos/certaldo-france/02-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-08-29"
+   },
+   {
+    "src": "media/photos/certaldo-france/03.webp",
+    "thumb": "media/photos/certaldo-france/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-29"
+   },
+   {
+    "src": "media/photos/certaldo-france/04.webp",
+    "thumb": "media/photos/certaldo-france/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-29"
+   },
+   {
+    "src": "media/photos/certaldo-france/05.webp",
+    "thumb": "media/photos/certaldo-france/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-29"
+   },
+   {
+    "src": "media/photos/certaldo-france/06.webp",
+    "thumb": "media/photos/certaldo-france/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-29"
+   },
+   {
+    "src": "media/photos/certaldo-france/07.webp",
+    "thumb": "media/photos/certaldo-france/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-30"
+   },
+   {
+    "src": "media/photos/certaldo-france/08.webp",
+    "thumb": "media/photos/certaldo-france/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-31"
+   },
+   {
+    "src": "media/photos/certaldo-france/09.webp",
+    "thumb": "media/photos/certaldo-france/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-31"
+   },
+   {
+    "src": "media/photos/certaldo-france/10.webp",
+    "thumb": "media/photos/certaldo-france/10-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-31"
+   },
+   {
+    "src": "media/photos/certaldo-france/11.webp",
+    "thumb": "media/photos/certaldo-france/11-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-31"
+   }
+  ]
+ },
+ {
+  "slug": "channelislandsnationalpark",
+  "title": "Channel Islands National Park",
+  "region": "California, USA",
+  "date": "2026-05",
+  "blurb": "",
+  "category": "nature",
+  "lat": 34.008,
+  "lng": -119.778,
+  "photos": [
+   {
+    "src": "media/photos/channelislandsnationalpark/01.webp",
+    "thumb": "media/photos/channelislandsnationalpark/01-thumb.webp",
+    "w": 1620,
+    "h": 1080,
+    "caption": "",
+    "date": "2026-05-14"
+   },
+   {
+    "src": "media/photos/channelislandsnationalpark/02.webp",
+    "thumb": "media/photos/channelislandsnationalpark/02-thumb.webp",
+    "w": 1440,
+    "h": 1080,
+    "caption": "",
+    "date": "2026-05-14"
+   },
+   {
+    "src": "media/photos/channelislandsnationalpark/03.webp",
+    "thumb": "media/photos/channelislandsnationalpark/03-thumb.webp",
+    "w": 1440,
+    "h": 1080,
+    "caption": "",
+    "date": "2026-05-14"
+   },
+   {
+    "src": "media/photos/channelislandsnationalpark/04.webp",
+    "thumb": "media/photos/channelislandsnationalpark/04-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/channelislandsnationalpark/05.webp",
+    "thumb": "media/photos/channelislandsnationalpark/05-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/channelislandsnationalpark/06.webp",
+    "thumb": "media/photos/channelislandsnationalpark/06-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/channelislandsnationalpark/07.webp",
+    "thumb": "media/photos/channelislandsnationalpark/07-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/channelislandsnationalpark/08.webp",
+    "thumb": "media/photos/channelislandsnationalpark/08-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   }
+  ]
+ },
+ {
+  "slug": "cinqueterre-italy",
+  "title": "Cinque Terre",
+  "region": "Liguria, Italy",
+  "date": "2023-08",
+  "blurb": "",
+  "category": "travel",
+  "lat": 44.128,
+  "lng": 9.711,
+  "photos": [
+   {
+    "src": "media/photos/cinqueterre-italy/01.webp",
+    "thumb": "media/photos/cinqueterre-italy/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-25"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/02.webp",
+    "thumb": "media/photos/cinqueterre-italy/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-25"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/03.webp",
+    "thumb": "media/photos/cinqueterre-italy/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-25"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/04.webp",
+    "thumb": "media/photos/cinqueterre-italy/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-25"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/05.webp",
+    "thumb": "media/photos/cinqueterre-italy/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-25"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/06.webp",
+    "thumb": "media/photos/cinqueterre-italy/06-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-08-25"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/07.webp",
+    "thumb": "media/photos/cinqueterre-italy/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-26"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/08.webp",
+    "thumb": "media/photos/cinqueterre-italy/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-26"
+   },
+   {
+    "src": "media/photos/cinqueterre-italy/09.webp",
+    "thumb": "media/photos/cinqueterre-italy/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-26"
+   }
+  ]
+ },
+ {
+  "slug": "cusco-peru",
+  "title": "Cusco",
+  "region": "Peru",
+  "date": "2023-12",
+  "blurb": "",
+  "category": "travel",
+  "lat": -13.532,
+  "lng": -71.967,
+  "photos": [
+   {
+    "src": "media/photos/cusco-peru/01.webp",
+    "thumb": "media/photos/cusco-peru/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-13"
+   },
+   {
+    "src": "media/photos/cusco-peru/02.webp",
+    "thumb": "media/photos/cusco-peru/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-13"
+   },
+   {
+    "src": "media/photos/cusco-peru/03.webp",
+    "thumb": "media/photos/cusco-peru/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-13"
+   },
+   {
+    "src": "media/photos/cusco-peru/04.webp",
+    "thumb": "media/photos/cusco-peru/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-13"
+   },
+   {
+    "src": "media/photos/cusco-peru/05.webp",
+    "thumb": "media/photos/cusco-peru/05-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-12-13"
+   }
+  ]
+ },
+ {
+  "slug": "elcalafate-argentina",
+  "title": "El Calafate",
+  "region": "Patagonia, Argentina",
+  "date": "2023-11",
+  "blurb": "",
+  "category": "nature",
+  "lat": -50.338,
+  "lng": -72.264,
+  "photos": [
+   {
+    "src": "media/photos/elcalafate-argentina/01.webp",
+    "thumb": "media/photos/elcalafate-argentina/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-12"
+   },
+   {
+    "src": "media/photos/elcalafate-argentina/02.webp",
+    "thumb": "media/photos/elcalafate-argentina/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-12"
+   },
+   {
+    "src": "media/photos/elcalafate-argentina/03.webp",
+    "thumb": "media/photos/elcalafate-argentina/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-12"
+   },
+   {
+    "src": "media/photos/elcalafate-argentina/04.webp",
+    "thumb": "media/photos/elcalafate-argentina/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-12"
+   },
+   {
+    "src": "media/photos/elcalafate-argentina/05.webp",
+    "thumb": "media/photos/elcalafate-argentina/05-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-11-12"
+   }
+  ]
+ },
+ {
+  "slug": "florence-italy",
+  "title": "Florence",
+  "region": "Tuscany, Italy",
+  "date": "2023-09",
+  "blurb": "",
+  "category": "travel",
+  "lat": 43.77,
+  "lng": 11.256,
+  "photos": [
+   {
+    "src": "media/photos/florence-italy/01.webp",
+    "thumb": "media/photos/florence-italy/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-09-01"
+   },
+   {
+    "src": "media/photos/florence-italy/02.webp",
+    "thumb": "media/photos/florence-italy/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-01"
+   },
+   {
+    "src": "media/photos/florence-italy/03.webp",
+    "thumb": "media/photos/florence-italy/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-02"
+   },
+   {
+    "src": "media/photos/florence-italy/04.webp",
+    "thumb": "media/photos/florence-italy/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-02"
+   },
+   {
+    "src": "media/photos/florence-italy/05.webp",
+    "thumb": "media/photos/florence-italy/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-02"
+   },
+   {
+    "src": "media/photos/florence-italy/06.webp",
+    "thumb": "media/photos/florence-italy/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-02"
+   }
+  ]
+ },
+ {
+  "slug": "goldentroutwilderness-california",
+  "title": "Golden Trout Wilderness",
+  "region": "Sierra Nevada, California",
+  "date": "2026-08",
+  "blurb": "",
+  "category": "nature",
+  "lat": 36.25,
+  "lng": -118.3,
+  "photos": [
+   {
+    "src": "media/photos/goldentroutwilderness-california/01.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/01-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-08-04"
+   },
+   {
+    "src": "media/photos/goldentroutwilderness-california/02.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/02-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-08-04"
+   },
+   {
+    "src": "media/photos/goldentroutwilderness-california/03.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/03-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-08-05"
+   },
+   {
+    "src": "media/photos/goldentroutwilderness-california/04.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/04-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-08-06"
+   },
+   {
+    "src": "media/photos/goldentroutwilderness-california/05.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/05-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-08-06"
+   },
+   {
+    "src": "media/photos/goldentroutwilderness-california/06.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/06-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-08-07"
+   },
+   {
+    "src": "media/photos/goldentroutwilderness-california/07.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/07-thumb.webp",
+    "w": 1351,
+    "h": 1800,
+    "caption": "",
+    "date": "2026-08-07"
+   },
+   {
+    "src": "media/photos/goldentroutwilderness-california/08.webp",
+    "thumb": "media/photos/goldentroutwilderness-california/08-thumb.webp",
+    "w": 1351,
+    "h": 1800,
+    "caption": "",
+    "date": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "slug": "guatape-colombia",
+  "title": "Guatapé",
+  "region": "Antioquia, Colombia",
+  "date": "2023-10",
+  "blurb": "",
+  "category": "travel",
+  "lat": 6.233,
+  "lng": -75.159,
+  "photos": [
+   {
+    "src": "media/photos/guatape-colombia/01.webp",
+    "thumb": "media/photos/guatape-colombia/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-05"
+   },
+   {
+    "src": "media/photos/guatape-colombia/02.webp",
+    "thumb": "media/photos/guatape-colombia/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-05"
+   },
+   {
+    "src": "media/photos/guatape-colombia/03.webp",
+    "thumb": "media/photos/guatape-colombia/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-06"
+   },
+   {
+    "src": "media/photos/guatape-colombia/04.webp",
+    "thumb": "media/photos/guatape-colombia/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-06"
+   },
+   {
+    "src": "media/photos/guatape-colombia/05.webp",
+    "thumb": "media/photos/guatape-colombia/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-06"
+   },
+   {
+    "src": "media/photos/guatape-colombia/06.webp",
+    "thumb": "media/photos/guatape-colombia/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-06"
+   }
+  ]
+ },
+ {
+  "slug": "iguakan-colombia",
+  "title": "Iguakan Reserva Natural",
+  "region": "Boyacá, Colombia",
+  "date": "2023-09",
+  "blurb": "",
+  "category": "field",
+  "lat": 5.68,
+  "lng": -73.47,
+  "photos": [
+   {
+    "src": "media/photos/iguakan-colombia/01.webp",
+    "thumb": "media/photos/iguakan-colombia/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-09"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/02.webp",
+    "thumb": "media/photos/iguakan-colombia/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-16"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/03.webp",
+    "thumb": "media/photos/iguakan-colombia/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-16"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/04.webp",
+    "thumb": "media/photos/iguakan-colombia/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-16"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/05.webp",
+    "thumb": "media/photos/iguakan-colombia/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-17"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/06.webp",
+    "thumb": "media/photos/iguakan-colombia/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-17"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/07.webp",
+    "thumb": "media/photos/iguakan-colombia/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-19"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/08.webp",
+    "thumb": "media/photos/iguakan-colombia/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-19"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/09.webp",
+    "thumb": "media/photos/iguakan-colombia/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-19"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/10.webp",
+    "thumb": "media/photos/iguakan-colombia/10-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-23"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/11.webp",
+    "thumb": "media/photos/iguakan-colombia/11-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-23"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/12.webp",
+    "thumb": "media/photos/iguakan-colombia/12-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-23"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/13.webp",
+    "thumb": "media/photos/iguakan-colombia/13-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-24"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/14.webp",
+    "thumb": "media/photos/iguakan-colombia/14-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-29"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/15.webp",
+    "thumb": "media/photos/iguakan-colombia/15-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-29"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/16.webp",
+    "thumb": "media/photos/iguakan-colombia/16-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-30"
+   },
+   {
+    "src": "media/photos/iguakan-colombia/17.webp",
+    "thumb": "media/photos/iguakan-colombia/17-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-09-30"
+   }
+  ]
+ },
+ {
+  "slug": "iguazufalls-brasil",
+  "title": "Iguazú Falls",
+  "region": "Brazil",
+  "date": "2023-10",
+  "blurb": "",
+  "category": "nature",
+  "lat": -25.695,
+  "lng": -54.437,
+  "photos": [
+   {
+    "src": "media/photos/iguazufalls-brasil/01.webp",
+    "thumb": "media/photos/iguazufalls-brasil/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-24"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/02.webp",
+    "thumb": "media/photos/iguazufalls-brasil/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-24"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/03.webp",
+    "thumb": "media/photos/iguazufalls-brasil/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-24"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/04.webp",
+    "thumb": "media/photos/iguazufalls-brasil/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-24"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/05.webp",
+    "thumb": "media/photos/iguazufalls-brasil/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-25"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/06.webp",
+    "thumb": "media/photos/iguazufalls-brasil/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-25"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/07.webp",
+    "thumb": "media/photos/iguazufalls-brasil/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-25"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/08.webp",
+    "thumb": "media/photos/iguazufalls-brasil/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-25"
+   },
+   {
+    "src": "media/photos/iguazufalls-brasil/09.webp",
+    "thumb": "media/photos/iguazufalls-brasil/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-25"
+   }
+  ]
+ },
+ {
+  "slug": "johnmuirwilderness-california",
+  "title": "John Muir Wilderness",
+  "region": "Sierra Nevada, California",
+  "date": "2026-05",
+  "blurb": "",
+  "category": "nature",
+  "lat": 37.25,
+  "lng": -118.85,
+  "photos": [
+   {
+    "src": "media/photos/johnmuirwilderness-california/01.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/01-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-28"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/02.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/02-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-28"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/03.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/03-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-29"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/04.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/04-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-29"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/05.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/05-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-29"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/06.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/06-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-30"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/07.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/07-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-31"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/08.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/08-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-31"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/09.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/09-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-31"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/10.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/10-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-05-31"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/11.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/11-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-01"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/12.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/12-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-01"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/13.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/13-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-01"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/14.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/14-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-01"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/15.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/15-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-02"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/16.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/16-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-02"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/17.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/17-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-02"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/18.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/18-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-02"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/19.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/19-thumb.webp",
+    "w": 1351,
+    "h": 1800,
+    "caption": "",
+    "date": "2026-06-02"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/20.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/20-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-02"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/21.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/21-thumb.webp",
+    "w": 1351,
+    "h": 1800,
+    "caption": "",
+    "date": "2026-06-03"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/22.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/22-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-03"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/23.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/23-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-03"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/24.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/24-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-04"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/25.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/25-thumb.webp",
+    "w": 1351,
+    "h": 1800,
+    "caption": "",
+    "date": "2026-06-04"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/26.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/26-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-04"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/27.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/27-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-04"
+   },
+   {
+    "src": "media/photos/johnmuirwilderness-california/28.webp",
+    "thumb": "media/photos/johnmuirwilderness-california/28-thumb.webp",
+    "w": 1800,
+    "h": 1351,
+    "caption": "",
+    "date": "2026-06-04"
+   }
+  ]
+ },
+ {
+  "slug": "kafuenationalpark-zambia",
+  "title": "Kafue National Park",
+  "region": "Zambia",
+  "date": "2025",
+  "blurb": "",
+  "category": "nature",
+  "lat": -14.9,
+  "lng": 25.9,
+  "photos": [
+   {
+    "src": "media/photos/kafuenationalpark-zambia/01.webp",
+    "thumb": "media/photos/kafuenationalpark-zambia/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-07-27"
+   },
+   {
+    "src": "media/photos/kafuenationalpark-zambia/02.webp",
+    "thumb": "media/photos/kafuenationalpark-zambia/02-thumb.webp",
+    "w": 1440,
+    "h": 1800,
+    "caption": "",
+    "date": "2013-01-09"
+   }
+  ]
+ },
+ {
+  "slug": "kilimanjaro",
+  "title": "Mount Kilimanjaro",
+  "region": "Tanzania",
+  "date": "2025-08",
+  "blurb": "",
+  "category": "nature",
+  "lat": -3.078,
+  "lng": 37.332,
+  "photos": [
+   {
+    "src": "media/photos/kilimanjaro/01.webp",
+    "thumb": "media/photos/kilimanjaro/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-15"
+   },
+   {
+    "src": "media/photos/kilimanjaro/02.webp",
+    "thumb": "media/photos/kilimanjaro/02-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-17"
+   },
+   {
+    "src": "media/photos/kilimanjaro/03.webp",
+    "thumb": "media/photos/kilimanjaro/03-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-18"
+   },
+   {
+    "src": "media/photos/kilimanjaro/04.webp",
+    "thumb": "media/photos/kilimanjaro/04-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-19"
+   },
+   {
+    "src": "media/photos/kilimanjaro/05.webp",
+    "thumb": "media/photos/kilimanjaro/05-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-21"
+   },
+   {
+    "src": "media/photos/kilimanjaro/06.webp",
+    "thumb": "media/photos/kilimanjaro/06-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-21"
+   },
+   {
+    "src": "media/photos/kilimanjaro/07.webp",
+    "thumb": "media/photos/kilimanjaro/07-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-22"
+   },
+   {
+    "src": "media/photos/kilimanjaro/08.webp",
+    "thumb": "media/photos/kilimanjaro/08-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/kilimanjaro/09.webp",
+    "thumb": "media/photos/kilimanjaro/09-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/kilimanjaro/10.webp",
+    "thumb": "media/photos/kilimanjaro/10-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   }
+  ]
+ },
+ {
+  "slug": "lucca-italy",
+  "title": "Lucca",
+  "region": "Tuscany, Italy",
+  "date": "2023-08",
+  "blurb": "",
+  "category": "travel",
+  "lat": 43.843,
+  "lng": 10.505,
+  "photos": [
+   {
+    "src": "media/photos/lucca-italy/01.webp",
+    "thumb": "media/photos/lucca-italy/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-22"
+   },
+   {
+    "src": "media/photos/lucca-italy/02.webp",
+    "thumb": "media/photos/lucca-italy/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-22"
+   },
+   {
+    "src": "media/photos/lucca-italy/03.webp",
+    "thumb": "media/photos/lucca-italy/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-23"
+   },
+   {
+    "src": "media/photos/lucca-italy/04.webp",
+    "thumb": "media/photos/lucca-italy/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-08-23"
+   }
+  ]
+ },
+ {
+  "slug": "lusaka-zambia",
+  "title": "Lusaka",
   "region": "Zambia",
   "date": "2025-07",
-  "blurb": "A summer with the University of Zambia, visiting irrigated plots I had only seen from space.",
+  "blurb": "Summer 2025 in Lusaka with the University of Zambia, sharing irrigation-mapping results with local partners.",
   "category": "field",
-  "lat": -15.42,
-  "lng": 28.28,
+  "lat": -15.417,
+  "lng": 28.283,
   "photos": [
    {
-    "src": "media/photos/lusaka/01.webp",
-    "thumb": "media/photos/lusaka/01-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 1 (replace with your own)",
-    "date": null
+    "src": "media/photos/lusaka-zambia/01.webp",
+    "thumb": "media/photos/lusaka-zambia/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2025-07-25"
    },
    {
-    "src": "media/photos/lusaka/02.webp",
-    "thumb": "media/photos/lusaka/02-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 2 (replace with your own)",
-    "date": null
+    "src": "media/photos/lusaka-zambia/02.webp",
+    "thumb": "media/photos/lusaka-zambia/02-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-07-05"
    },
    {
-    "src": "media/photos/lusaka/03.webp",
-    "thumb": "media/photos/lusaka/03-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 3 (replace with your own)",
-    "date": null
+    "src": "media/photos/lusaka-zambia/03.webp",
+    "thumb": "media/photos/lusaka-zambia/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2025-07-18"
    },
    {
-    "src": "media/photos/lusaka/04.webp",
-    "thumb": "media/photos/lusaka/04-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 4 (replace with your own)",
-    "date": null
+    "src": "media/photos/lusaka-zambia/04.webp",
+    "thumb": "media/photos/lusaka-zambia/04-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-07-19"
    },
    {
-    "src": "media/photos/lusaka/05.webp",
-    "thumb": "media/photos/lusaka/05-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 5 (replace with your own)",
-    "date": null
-   },
-   {
-    "src": "media/photos/lusaka/06.webp",
-    "thumb": "media/photos/lusaka/06-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 6 (replace with your own)",
-    "date": null
-   },
-   {
-    "src": "media/photos/lusaka/07.webp",
-    "thumb": "media/photos/lusaka/07-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 7 (replace with your own)",
-    "date": null
+    "src": "media/photos/lusaka-zambia/05.webp",
+    "thumb": "media/photos/lusaka-zambia/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2025-07-25"
    }
-  ],
-  "sample": true
+  ]
  },
  {
-  "slug": "whakatane",
-  "title": "Whakatāne",
-  "region": "Bay of Plenty, New Zealand",
-  "date": "2024-08",
-  "blurb": "Tracking kiwi chicks through the native bush.",
-  "category": "nature",
-  "lat": -37.95,
-  "lng": 176.99,
-  "photos": [
-   {
-    "src": "media/photos/whakatane/01.webp",
-    "thumb": "media/photos/whakatane/01-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 1 (replace with your own)",
-    "date": null
-   },
-   {
-    "src": "media/photos/whakatane/02.webp",
-    "thumb": "media/photos/whakatane/02-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 2 (replace with your own)",
-    "date": null
-   },
-   {
-    "src": "media/photos/whakatane/03.webp",
-    "thumb": "media/photos/whakatane/03-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 3 (replace with your own)",
-    "date": null
-   },
-   {
-    "src": "media/photos/whakatane/04.webp",
-    "thumb": "media/photos/whakatane/04-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 4 (replace with your own)",
-    "date": null
-   },
-   {
-    "src": "media/photos/whakatane/05.webp",
-    "thumb": "media/photos/whakatane/05-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 5 (replace with your own)",
-    "date": null
-   }
-  ],
-  "sample": true
- },
- {
-  "slug": "colombia",
-  "title": "Andes of Boyacá",
-  "region": "Colombia",
-  "date": "2023-09",
-  "blurb": "Farming in the Andes with WWOOF.",
+  "slug": "machupicchu-peru",
+  "title": "Machu Picchu",
+  "region": "Peru",
+  "date": "2023-12",
+  "blurb": "",
   "category": "travel",
-  "lat": 5.53,
-  "lng": -73.36,
+  "lat": -13.163,
+  "lng": -72.545,
   "photos": [
    {
-    "src": "media/photos/colombia/01.webp",
-    "thumb": "media/photos/colombia/01-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 1 (replace with your own)",
-    "date": null
+    "src": "media/photos/machupicchu-peru/01.webp",
+    "thumb": "media/photos/machupicchu-peru/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-15"
    },
    {
-    "src": "media/photos/colombia/02.webp",
-    "thumb": "media/photos/colombia/02-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 2 (replace with your own)",
-    "date": null
+    "src": "media/photos/machupicchu-peru/02.webp",
+    "thumb": "media/photos/machupicchu-peru/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-15"
    },
    {
-    "src": "media/photos/colombia/03.webp",
-    "thumb": "media/photos/colombia/03-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 3 (replace with your own)",
-    "date": null
+    "src": "media/photos/machupicchu-peru/03.webp",
+    "thumb": "media/photos/machupicchu-peru/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-15"
    },
    {
-    "src": "media/photos/colombia/04.webp",
-    "thumb": "media/photos/colombia/04-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 4 (replace with your own)",
-    "date": null
+    "src": "media/photos/machupicchu-peru/04.webp",
+    "thumb": "media/photos/machupicchu-peru/04-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-12-15"
    },
    {
-    "src": "media/photos/colombia/05.webp",
-    "thumb": "media/photos/colombia/05-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 5 (replace with your own)",
-    "date": null
+    "src": "media/photos/machupicchu-peru/05.webp",
+    "thumb": "media/photos/machupicchu-peru/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-16"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/06.webp",
+    "thumb": "media/photos/machupicchu-peru/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-16"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/07.webp",
+    "thumb": "media/photos/machupicchu-peru/07-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-12-17"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/08.webp",
+    "thumb": "media/photos/machupicchu-peru/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-18"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/09.webp",
+    "thumb": "media/photos/machupicchu-peru/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-18"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/10.webp",
+    "thumb": "media/photos/machupicchu-peru/10-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/11.webp",
+    "thumb": "media/photos/machupicchu-peru/11-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/12.webp",
+    "thumb": "media/photos/machupicchu-peru/12-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/13.webp",
+    "thumb": "media/photos/machupicchu-peru/13-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/14.webp",
+    "thumb": "media/photos/machupicchu-peru/14-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/15.webp",
+    "thumb": "media/photos/machupicchu-peru/15-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/16.webp",
+    "thumb": "media/photos/machupicchu-peru/16-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
+   },
+   {
+    "src": "media/photos/machupicchu-peru/17.webp",
+    "thumb": "media/photos/machupicchu-peru/17-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-12-19"
    }
-  ],
-  "sample": true
+  ]
  },
  {
-  "slug": "bryce",
-  "title": "Bryce Canyon",
-  "region": "Utah, USA",
-  "date": "2024",
-  "blurb": "Hoodoos at sunrise.",
-  "category": "nature",
-  "lat": 37.59,
-  "lng": -112.19,
+  "slug": "medellin-colombia",
+  "title": "Medellín",
+  "region": "Colombia",
+  "date": "2023-10",
+  "blurb": "",
+  "category": "travel",
+  "lat": 6.244,
+  "lng": -75.581,
   "photos": [
    {
-    "src": "media/photos/bryce/01.webp",
-    "thumb": "media/photos/bryce/01-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 1 (replace with your own)",
+    "src": "media/photos/medellin-colombia/01.webp",
+    "thumb": "media/photos/medellin-colombia/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-02"
+   },
+   {
+    "src": "media/photos/medellin-colombia/02.webp",
+    "thumb": "media/photos/medellin-colombia/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-02"
+   },
+   {
+    "src": "media/photos/medellin-colombia/03.webp",
+    "thumb": "media/photos/medellin-colombia/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-02"
+   },
+   {
+    "src": "media/photos/medellin-colombia/04.webp",
+    "thumb": "media/photos/medellin-colombia/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-03"
+   },
+   {
+    "src": "media/photos/medellin-colombia/05.webp",
+    "thumb": "media/photos/medellin-colombia/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-08"
+   }
+  ]
+ },
+ {
+  "slug": "naranag-kashmir",
+  "title": "Naranag",
+  "region": "Kashmir",
+  "date": "2022-10",
+  "blurb": "",
+  "category": "nature",
+  "lat": 34.354,
+  "lng": 74.98,
+  "photos": [
+   {
+    "src": "media/photos/naranag-kashmir/01.webp",
+    "thumb": "media/photos/naranag-kashmir/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-03"
+   },
+   {
+    "src": "media/photos/naranag-kashmir/02.webp",
+    "thumb": "media/photos/naranag-kashmir/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-03"
+   },
+   {
+    "src": "media/photos/naranag-kashmir/03.webp",
+    "thumb": "media/photos/naranag-kashmir/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-03"
+   },
+   {
+    "src": "media/photos/naranag-kashmir/04.webp",
+    "thumb": "media/photos/naranag-kashmir/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-04"
+   },
+   {
+    "src": "media/photos/naranag-kashmir/05.webp",
+    "thumb": "media/photos/naranag-kashmir/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-05"
+   },
+   {
+    "src": "media/photos/naranag-kashmir/06.webp",
+    "thumb": "media/photos/naranag-kashmir/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-05"
+   },
+   {
+    "src": "media/photos/naranag-kashmir/07.webp",
+    "thumb": "media/photos/naranag-kashmir/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-05"
+   }
+  ]
+ },
+ {
+  "slug": "ohopebeach-aotearoa",
+  "title": "Ōhope Beach",
+  "region": "Bay of Plenty, Aotearoa New Zealand",
+  "date": "2024-09",
+  "blurb": "",
+  "category": "field",
+  "lat": -37.975,
+  "lng": 177.05,
+  "photos": [
+   {
+    "src": "media/photos/ohopebeach-aotearoa/01.webp",
+    "thumb": "media/photos/ohopebeach-aotearoa/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-09-05"
+   },
+   {
+    "src": "media/photos/ohopebeach-aotearoa/02.webp",
+    "thumb": "media/photos/ohopebeach-aotearoa/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-09-05"
+   },
+   {
+    "src": "media/photos/ohopebeach-aotearoa/03.webp",
+    "thumb": "media/photos/ohopebeach-aotearoa/03-thumb.webp",
+    "w": 1800,
+    "h": 1337,
+    "caption": "",
+    "date": "2024-09-07"
+   },
+   {
+    "src": "media/photos/ohopebeach-aotearoa/04.webp",
+    "thumb": "media/photos/ohopebeach-aotearoa/04-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-09-04"
+   }
+  ]
+ },
+ {
+  "slug": "passau-danuberiver",
+  "title": "Passau",
+  "region": "Danube River · Germany",
+  "date": "2024-08",
+  "blurb": "",
+  "category": "travel",
+  "lat": 48.574,
+  "lng": 13.461,
+  "photos": [
+   {
+    "src": "media/photos/passau-danuberiver/01.webp",
+    "thumb": "media/photos/passau-danuberiver/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-11"
+   },
+   {
+    "src": "media/photos/passau-danuberiver/02.webp",
+    "thumb": "media/photos/passau-danuberiver/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-11"
+   },
+   {
+    "src": "media/photos/passau-danuberiver/03.webp",
+    "thumb": "media/photos/passau-danuberiver/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-12"
+   },
+   {
+    "src": "media/photos/passau-danuberiver/04.webp",
+    "thumb": "media/photos/passau-danuberiver/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-13"
+   }
+  ]
+ },
+ {
+  "slug": "riodejaniero-brasil",
+  "title": "Rio de Janeiro",
+  "region": "Brazil",
+  "date": "2023-10",
+  "blurb": "",
+  "category": "travel",
+  "lat": -22.907,
+  "lng": -43.173,
+  "photos": [
+   {
+    "src": "media/photos/riodejaniero-brasil/01.webp",
+    "thumb": "media/photos/riodejaniero-brasil/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-12"
+   },
+   {
+    "src": "media/photos/riodejaniero-brasil/02.webp",
+    "thumb": "media/photos/riodejaniero-brasil/02-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-10-12"
+   },
+   {
+    "src": "media/photos/riodejaniero-brasil/03.webp",
+    "thumb": "media/photos/riodejaniero-brasil/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-12"
+   }
+  ]
+ },
+ {
+  "slug": "rotorua-aotearoa",
+  "title": "Rotorua",
+  "region": "Aotearoa New Zealand",
+  "date": "2024-09",
+  "blurb": "",
+  "category": "travel",
+  "lat": -38.137,
+  "lng": 176.251,
+  "photos": [
+   {
+    "src": "media/photos/rotorua-aotearoa/01.webp",
+    "thumb": "media/photos/rotorua-aotearoa/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-09-06"
+   },
+   {
+    "src": "media/photos/rotorua-aotearoa/02.webp",
+    "thumb": "media/photos/rotorua-aotearoa/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-09-06"
+   },
+   {
+    "src": "media/photos/rotorua-aotearoa/03.webp",
+    "thumb": "media/photos/rotorua-aotearoa/03-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-09-06"
+   }
+  ]
+ },
+ {
+  "slug": "sancarlosdebariloche-argentina",
+  "title": "San Carlos de Bariloche",
+  "region": "Patagonia, Argentina",
+  "date": "2023-11",
+  "blurb": "",
+  "category": "nature",
+  "lat": -41.133,
+  "lng": -71.31,
+  "photos": [
+   {
+    "src": "media/photos/sancarlosdebariloche-argentina/01.webp",
+    "thumb": "media/photos/sancarlosdebariloche-argentina/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-04"
+   },
+   {
+    "src": "media/photos/sancarlosdebariloche-argentina/02.webp",
+    "thumb": "media/photos/sancarlosdebariloche-argentina/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-04"
+   },
+   {
+    "src": "media/photos/sancarlosdebariloche-argentina/03.webp",
+    "thumb": "media/photos/sancarlosdebariloche-argentina/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-04"
+   },
+   {
+    "src": "media/photos/sancarlosdebariloche-argentina/04.webp",
+    "thumb": "media/photos/sancarlosdebariloche-argentina/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-04"
+   },
+   {
+    "src": "media/photos/sancarlosdebariloche-argentina/05.webp",
+    "thumb": "media/photos/sancarlosdebariloche-argentina/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-04"
+   },
+   {
+    "src": "media/photos/sancarlosdebariloche-argentina/06.webp",
+    "thumb": "media/photos/sancarlosdebariloche-argentina/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-04"
+   }
+  ]
+ },
+ {
+  "slug": "sanfrancisco-california",
+  "title": "San Francisco",
+  "region": "California, USA",
+  "date": "",
+  "blurb": "",
+  "category": "travel",
+  "lat": 37.775,
+  "lng": -122.419,
+  "photos": [
+   {
+    "src": "media/photos/sanfrancisco-california/01.webp",
+    "thumb": "media/photos/sanfrancisco-california/01-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
     "date": null
    },
    {
-    "src": "media/photos/bryce/02.webp",
-    "thumb": "media/photos/bryce/02-thumb.webp",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Sample photo 2 (replace with your own)",
+    "src": "media/photos/sanfrancisco-california/02.webp",
+    "thumb": "media/photos/sanfrancisco-california/02-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
     "date": null
    },
    {
-    "src": "media/photos/bryce/03.webp",
-    "thumb": "media/photos/bryce/03-thumb.webp",
-    "w": 1067,
-    "h": 1500,
-    "caption": "Sample photo 3 (replace with your own)",
+    "src": "media/photos/sanfrancisco-california/03.webp",
+    "thumb": "media/photos/sanfrancisco-california/03-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sanfrancisco-california/04.webp",
+    "thumb": "media/photos/sanfrancisco-california/04-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sanfrancisco-california/05.webp",
+    "thumb": "media/photos/sanfrancisco-california/05-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sanfrancisco-california/06.webp",
+    "thumb": "media/photos/sanfrancisco-california/06-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sanfrancisco-california/07.webp",
+    "thumb": "media/photos/sanfrancisco-california/07-thumb.webp",
+    "w": 1207,
+    "h": 1800,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sanfrancisco-california/08.webp",
+    "thumb": "media/photos/sanfrancisco-california/08-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sanfrancisco-california/09.webp",
+    "thumb": "media/photos/sanfrancisco-california/09-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
     "date": null
    }
-  ],
-  "sample": true
+  ]
+ },
+ {
+  "slug": "sequioanationalpark-california",
+  "title": "Sequoia National Park",
+  "region": "California, USA",
+  "date": "2025",
+  "blurb": "",
+  "category": "nature",
+  "lat": 36.486,
+  "lng": -118.566,
+  "photos": [
+   {
+    "src": "media/photos/sequioanationalpark-california/01.webp",
+    "thumb": "media/photos/sequioanationalpark-california/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "1980-01-01"
+   },
+   {
+    "src": "media/photos/sequioanationalpark-california/02.webp",
+    "thumb": "media/photos/sequioanationalpark-california/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "1980-01-01"
+   },
+   {
+    "src": "media/photos/sequioanationalpark-california/03.webp",
+    "thumb": "media/photos/sequioanationalpark-california/03-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "1980-01-01"
+   },
+   {
+    "src": "media/photos/sequioanationalpark-california/04.webp",
+    "thumb": "media/photos/sequioanationalpark-california/04-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "1980-01-01"
+   },
+   {
+    "src": "media/photos/sequioanationalpark-california/05.webp",
+    "thumb": "media/photos/sequioanationalpark-california/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "1980-01-01"
+   },
+   {
+    "src": "media/photos/sequioanationalpark-california/06.webp",
+    "thumb": "media/photos/sequioanationalpark-california/06-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "1980-01-01"
+   }
+  ]
+ },
+ {
+  "slug": "sespewilderness-california",
+  "title": "Sespe Wilderness",
+  "region": "Los Padres National Forest, California",
+  "date": "",
+  "blurb": "",
+  "category": "nature",
+  "lat": 34.58,
+  "lng": -119.05,
+  "photos": [
+   {
+    "src": "media/photos/sespewilderness-california/01.webp",
+    "thumb": "media/photos/sespewilderness-california/01-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sespewilderness-california/02.webp",
+    "thumb": "media/photos/sespewilderness-california/02-thumb.webp",
+    "w": 1207,
+    "h": 1800,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sespewilderness-california/03.webp",
+    "thumb": "media/photos/sespewilderness-california/03-thumb.webp",
+    "w": 1207,
+    "h": 1800,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sespewilderness-california/04.webp",
+    "thumb": "media/photos/sespewilderness-california/04-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sespewilderness-california/05.webp",
+    "thumb": "media/photos/sespewilderness-california/05-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sespewilderness-california/06.webp",
+    "thumb": "media/photos/sespewilderness-california/06-thumb.webp",
+    "w": 1207,
+    "h": 1800,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/sespewilderness-california/07.webp",
+    "thumb": "media/photos/sespewilderness-california/07-thumb.webp",
+    "w": 1800,
+    "h": 1207,
+    "caption": "",
+    "date": null
+   }
+  ]
+ },
+ {
+  "slug": "srinagar-kashmir",
+  "title": "Srinagar",
+  "region": "Kashmir",
+  "date": "2022-10",
+  "blurb": "",
+  "category": "travel",
+  "lat": 34.084,
+  "lng": 74.797,
+  "photos": [
+   {
+    "src": "media/photos/srinagar-kashmir/01.webp",
+    "thumb": "media/photos/srinagar-kashmir/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-01"
+   },
+   {
+    "src": "media/photos/srinagar-kashmir/02.webp",
+    "thumb": "media/photos/srinagar-kashmir/02-thumb.webp",
+    "w": 1800,
+    "h": 1407,
+    "caption": "",
+    "date": "2022-10-01"
+   },
+   {
+    "src": "media/photos/srinagar-kashmir/03.webp",
+    "thumb": "media/photos/srinagar-kashmir/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2022-10-01"
+   }
+  ]
+ },
+ {
+  "slug": "tarangire-tanzania",
+  "title": "Tarangire National Park",
+  "region": "Tanzania",
+  "date": "2025",
+  "blurb": "",
+  "category": "nature",
+  "lat": -3.83,
+  "lng": 36.0,
+  "photos": [
+   {
+    "src": "media/photos/tarangire-tanzania/01.webp",
+    "thumb": "media/photos/tarangire-tanzania/01-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/tarangire-tanzania/02.webp",
+    "thumb": "media/photos/tarangire-tanzania/02-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/tarangire-tanzania/03.webp",
+    "thumb": "media/photos/tarangire-tanzania/03-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/tarangire-tanzania/04.webp",
+    "thumb": "media/photos/tarangire-tanzania/04-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/tarangire-tanzania/05.webp",
+    "thumb": "media/photos/tarangire-tanzania/05-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/tarangire-tanzania/06.webp",
+    "thumb": "media/photos/tarangire-tanzania/06-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/tarangire-tanzania/07.webp",
+    "thumb": "media/photos/tarangire-tanzania/07-thumb.webp",
+    "w": 1800,
+    "h": 1440,
+    "caption": "",
+    "date": null
+   }
+  ]
+ },
+ {
+  "slug": "tatras-slovakia",
+  "title": "High Tatras",
+  "region": "Slovakia",
+  "date": "2024-08",
+  "blurb": "",
+  "category": "nature",
+  "lat": 49.18,
+  "lng": 20.088,
+  "photos": [
+   {
+    "src": "media/photos/tatras-slovakia/01.webp",
+    "thumb": "media/photos/tatras-slovakia/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-08-20"
+   },
+   {
+    "src": "media/photos/tatras-slovakia/02.webp",
+    "thumb": "media/photos/tatras-slovakia/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-20"
+   },
+   {
+    "src": "media/photos/tatras-slovakia/03.webp",
+    "thumb": "media/photos/tatras-slovakia/03-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-08-20"
+   },
+   {
+    "src": "media/photos/tatras-slovakia/04.webp",
+    "thumb": "media/photos/tatras-slovakia/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-19"
+   },
+   {
+    "src": "media/photos/tatras-slovakia/05.webp",
+    "thumb": "media/photos/tatras-slovakia/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-19"
+   },
+   {
+    "src": "media/photos/tatras-slovakia/06.webp",
+    "thumb": "media/photos/tatras-slovakia/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-22"
+   },
+   {
+    "src": "media/photos/tatras-slovakia/07.webp",
+    "thumb": "media/photos/tatras-slovakia/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-22"
+   },
+   {
+    "src": "media/photos/tatras-slovakia/08.webp",
+    "thumb": "media/photos/tatras-slovakia/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-08-22"
+   }
+  ]
+ },
+ {
+  "slug": "torresdelpaine-chile",
+  "title": "Torres del Paine",
+  "region": "Patagonia, Chile",
+  "date": "2023-11",
+  "blurb": "",
+  "category": "nature",
+  "lat": -50.942,
+  "lng": -73.407,
+  "photos": [
+   {
+    "src": "media/photos/torresdelpaine-chile/01.webp",
+    "thumb": "media/photos/torresdelpaine-chile/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-15"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/02.webp",
+    "thumb": "media/photos/torresdelpaine-chile/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-15"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/03.webp",
+    "thumb": "media/photos/torresdelpaine-chile/03-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-11-15"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/04.webp",
+    "thumb": "media/photos/torresdelpaine-chile/04-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-15"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/05.webp",
+    "thumb": "media/photos/torresdelpaine-chile/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-15"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/06.webp",
+    "thumb": "media/photos/torresdelpaine-chile/06-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-15"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/07.webp",
+    "thumb": "media/photos/torresdelpaine-chile/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-15"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/08.webp",
+    "thumb": "media/photos/torresdelpaine-chile/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-16"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/09.webp",
+    "thumb": "media/photos/torresdelpaine-chile/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-16"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/10.webp",
+    "thumb": "media/photos/torresdelpaine-chile/10-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-16"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/11.webp",
+    "thumb": "media/photos/torresdelpaine-chile/11-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-16"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/12.webp",
+    "thumb": "media/photos/torresdelpaine-chile/12-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-16"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/13.webp",
+    "thumb": "media/photos/torresdelpaine-chile/13-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-17"
+   },
+   {
+    "src": "media/photos/torresdelpaine-chile/14.webp",
+    "thumb": "media/photos/torresdelpaine-chile/14-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-17"
+   }
+  ]
+ },
+ {
+  "slug": "tullin-danuberiver",
+  "title": "Tulln an der Donau",
+  "region": "Danube River · Austria",
+  "date": "2024-08",
+  "blurb": "",
+  "category": "travel",
+  "lat": 48.33,
+  "lng": 16.055,
+  "photos": [
+   {
+    "src": "media/photos/tullin-danuberiver/01.webp",
+    "thumb": "media/photos/tullin-danuberiver/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2024-08-13"
+   }
+  ]
+ },
+ {
+  "slug": "ushuaia-argentina",
+  "title": "Ushuaia",
+  "region": "Tierra del Fuego, Argentina",
+  "date": "2023-11",
+  "blurb": "",
+  "category": "nature",
+  "lat": -54.802,
+  "lng": -68.303,
+  "photos": [
+   {
+    "src": "media/photos/ushuaia-argentina/01.webp",
+    "thumb": "media/photos/ushuaia-argentina/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-21"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/02.webp",
+    "thumb": "media/photos/ushuaia-argentina/02-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-11-21"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/03.webp",
+    "thumb": "media/photos/ushuaia-argentina/03-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-21"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/04.webp",
+    "thumb": "media/photos/ushuaia-argentina/04-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-11-21"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/05.webp",
+    "thumb": "media/photos/ushuaia-argentina/05-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-22"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/06.webp",
+    "thumb": "media/photos/ushuaia-argentina/06-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2023-11-22"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/07.webp",
+    "thumb": "media/photos/ushuaia-argentina/07-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-23"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/08.webp",
+    "thumb": "media/photos/ushuaia-argentina/08-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-23"
+   },
+   {
+    "src": "media/photos/ushuaia-argentina/09.webp",
+    "thumb": "media/photos/ushuaia-argentina/09-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-11-23"
+   }
+  ]
+ },
+ {
+  "slug": "valparaison-chile",
+  "title": "Valparaíso",
+  "region": "Chile",
+  "date": "2023-10",
+  "blurb": "",
+  "category": "travel",
+  "lat": -33.047,
+  "lng": -71.613,
+  "photos": [
+   {
+    "src": "media/photos/valparaison-chile/01.webp",
+    "thumb": "media/photos/valparaison-chile/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-31"
+   },
+   {
+    "src": "media/photos/valparaison-chile/02.webp",
+    "thumb": "media/photos/valparaison-chile/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2023-10-31"
+   }
+  ]
+ },
+ {
+  "slug": "victoriafalls-zambia",
+  "title": "Victoria Falls",
+  "region": "Zambia",
+  "date": "2025-08",
+  "blurb": "",
+  "category": "nature",
+  "lat": -17.925,
+  "lng": 25.857,
+  "photos": [
+   {
+    "src": "media/photos/victoriafalls-zambia/01.webp",
+    "thumb": "media/photos/victoriafalls-zambia/01-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-02"
+   },
+   {
+    "src": "media/photos/victoriafalls-zambia/02.webp",
+    "thumb": "media/photos/victoriafalls-zambia/02-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-03"
+   },
+   {
+    "src": "media/photos/victoriafalls-zambia/03.webp",
+    "thumb": "media/photos/victoriafalls-zambia/03-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-04"
+   },
+   {
+    "src": "media/photos/victoriafalls-zambia/04.webp",
+    "thumb": "media/photos/victoriafalls-zambia/04-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-04"
+   },
+   {
+    "src": "media/photos/victoriafalls-zambia/05.webp",
+    "thumb": "media/photos/victoriafalls-zambia/05-thumb.webp",
+    "w": 1350,
+    "h": 1800,
+    "caption": "",
+    "date": "2025-08-04"
+   }
+  ]
+ },
+ {
+  "slug": "waitomocaves-aotearoa",
+  "title": "Waitomo Caves",
+  "region": "Aotearoa New Zealand",
+  "date": "2024-09",
+  "blurb": "",
+  "category": "nature",
+  "lat": -38.261,
+  "lng": 175.104,
+  "photos": [
+   {
+    "src": "media/photos/waitomocaves-aotearoa/01.webp",
+    "thumb": "media/photos/waitomocaves-aotearoa/01-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-09-06"
+   },
+   {
+    "src": "media/photos/waitomocaves-aotearoa/02.webp",
+    "thumb": "media/photos/waitomocaves-aotearoa/02-thumb.webp",
+    "w": 1800,
+    "h": 1350,
+    "caption": "",
+    "date": "2024-09-06"
+   }
+  ]
+ },
+ {
+  "slug": "zambezinationalpark-zimbabwe",
+  "title": "Zambezi National Park",
+  "region": "Zimbabwe",
+  "date": "2025",
+  "blurb": "",
+  "category": "nature",
+  "lat": -17.87,
+  "lng": 25.7,
+  "photos": [
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/01.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/01-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/02.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/02-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/03.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/03-thumb.webp",
+    "w": 1200,
+    "h": 1800,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/04.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/04-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/05.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/05-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/06.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/06-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/07.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/07-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/08.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/08-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/09.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/09-thumb.webp",
+    "w": 1800,
+    "h": 1193,
+    "caption": "",
+    "date": null
+   },
+   {
+    "src": "media/photos/zambezinationalpark-zimbabwe/10.webp",
+    "thumb": "media/photos/zambezinationalpark-zimbabwe/10-thumb.webp",
+    "w": 1193,
+    "h": 1800,
+    "caption": "",
+    "date": null
+   }
+  ]
  }
 ]

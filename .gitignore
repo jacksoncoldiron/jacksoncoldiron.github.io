@@ -16,3 +16,6 @@ photos-inbox/
 
 # Local Claude Code settings
 .claude/settings.local.json
+
+# Original full-size banner photos (optimized crops in assets/ are what get published)
+assets-src/

@@ -23,14 +23,29 @@
   pointer-events: none;
   z-index: 250;
 }
-.leaflet-container { font-family: "Inter", system-ui, sans-serif; }
+.leaflet-container { font-family: "Lora", Georgia, serif; }
 .leaflet-control-attribution { background: rgba(247, 245, 250, 0.8) !important; font-size: 10px; }
 .leaflet-control-zoom a { color: #3F5671 !important; border-radius: 10px !important; }
 .leaflet-control-zoom { border: 1px solid rgba(63,86,113,.15) !important; border-radius: 12px !important; overflow: hidden; }
 
-/* markers */
-.pm-marker { cursor: pointer; transition: filter .15s ease; }
-.pm-marker:hover { filter: drop-shadow(0 0 8px rgba(63, 86, 113, 0.45)); }
+/* markers: one circle per place, sized by photo count, colored by category */
+.pm-pin-wrap, .pm-cluster-wrap { background: none; border: 0; }
+.pm-pin {
+  display: block; border-radius: 50%;
+  background: var(--c); border: 2.5px solid #fff;
+  box-shadow: 0 0 0 7px color-mix(in srgb, var(--c) 22%, transparent), 0 2px 6px rgba(30, 42, 58, .18);
+  cursor: pointer; transition: transform .15s ease, box-shadow .15s ease;
+}
+.pm-pin:hover { transform: scale(1.12); box-shadow: 0 0 0 9px color-mix(in srgb, var(--c) 30%, transparent), 0 4px 12px rgba(30, 42, 58, .25); }
+/* clusters: nearby places grouped; number = how many places */
+.pm-cluster {
+  display: grid; place-items: center; border-radius: 50%;
+  background: rgba(63, 86, 113, .82); color: #fff; border: 2.5px solid #fff;
+  font: 600 .9rem/1 "Jost", system-ui, sans-serif;
+  box-shadow: 0 0 0 8px rgba(131, 161, 195, .28), 0 2px 8px rgba(30, 42, 58, .2);
+  cursor: pointer; transition: transform .15s ease;
+}
+.pm-cluster:hover { transform: scale(1.08); }
 
 .leaflet-tooltip.pm-tip {
   background: rgba(255, 255, 255, 0.96);
@@ -42,7 +57,7 @@
 }
 .leaflet-tooltip.pm-tip::before { display: none; }
 .pm-tip img { width: 180px; height: 110px; object-fit: cover; border-radius: 10px; display: block; }
-.pm-tip .t { font-family: "Fraunces", Georgia, serif; font-size: 15px; padding: 6px 4px 0; }
+.pm-tip .t { font-family: "Jost", system-ui, sans-serif; font-size: 15px; padding: 6px 4px 0; }
 .pm-tip .s { font-size: 11px; color: #5B6577; padding: 0 4px 2px; }
 
 /* floating panel */
@@ -59,7 +74,7 @@
   padding: 1.6rem 1.4rem 1rem;
   box-shadow: 0 1px 2px rgba(30,42,58,.04), 0 12px 40px rgba(63,86,113,.14);
 }
-.pm-title { font-family: "Fraunces", Georgia, serif; font-weight: 400; font-size: 2.2rem; color: #1E2A3A; margin: 0 0 .5rem; }
+.pm-title { font-family: "Jost", system-ui, sans-serif; font-weight: 500; font-size: 2.2rem; color: #1E2A3A; margin: 0 0 .5rem; }
 .pm-intro { font-size: .93rem; color: #5B6577; margin-bottom: .9rem; }
 .pm-legend { display: flex; gap: 1rem; font-size: .78rem; color: #5B6577; margin-bottom: .9rem; }
 .pm-legend span { display: inline-flex; align-items: center; gap: .35rem; }
@@ -76,7 +91,7 @@
 }
 .pm-list li:hover, .pm-list li:focus-visible { background: rgba(255,255,255,.85); outline: none; }
 .pm-list img { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; }
-.pm-list .n { font-family: "Fraunces", Georgia, serif; font-size: 1rem; color: #1E2A3A; line-height: 1.25; }
+.pm-list .n { font-family: "Jost", system-ui, sans-serif; font-size: 1rem; color: #1E2A3A; line-height: 1.25; }
 .pm-list .m { font-size: .76rem; color: #5B6577; display: flex; align-items: center; gap: .35rem; }
 .pm-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
 .pm-sample { font-size: .76rem; color: #6B5A7E; margin: .6rem 0 0; }
@@ -95,7 +110,7 @@
 @keyframes pmFade { from { opacity: 0 } to { opacity: 1 } }
 .pm-m-head { display: flex; justify-content: space-between; align-items: flex-start; max-width: 1400px; width: 100%; margin: 0 auto; }
 .pm-m-region { font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: #CEB5C8; }
-.pm-m-title { border-bottom: 0 !important; padding-bottom: 0; font-family: "Fraunces", Georgia, serif; font-weight: 400; font-size: 1.8rem; color: #fff; margin: .1rem 0 0; }
+.pm-m-title { border-bottom: 0 !important; padding-bottom: 0; font-family: "Jost", system-ui, sans-serif; font-weight: 500; font-size: 1.8rem; color: #fff; margin: .1rem 0 0; }
 .pm-stage { flex: 1 1 auto; display: flex; align-items: center; gap: 1rem; min-height: 0; width: 100%; max-width: 1400px; margin: 0 auto; }
 .pm-stage > .pm-btn { flex: 0 0 auto; }
 .pm-figure { flex: 1 1 auto; min-width: 0; margin: 0; height: 100%; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
@@ -130,3 +145,5 @@
   .pm-modal { padding: 1rem .75rem; }
 }
 
+.pm-thumbs { scrollbar-width: none; }
+.pm-thumbs::-webkit-scrollbar { display: none; }

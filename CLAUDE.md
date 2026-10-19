@@ -2,8 +2,9 @@
 
 Personal research website for **Jackson Coldiron**, environmental scientist (MESM '26, UCSB Bren).
 Live at <https://jacksoncoldiron.github.io>. The aim is a site that is modern, calm, and professional, with
-soft pastel colors (ploen palette plus blue-green water tones) and the "contour wave" look of
-*The Carbon Wave* cover and the Dune covers.
+soft pastel colors (ploen palette plus blue-green water tones) and a sense of moving water, shown
+as thin flowing contour lines. *The Carbon Wave* cover and the Dune covers are mood references only;
+**don't copy the cover's filled color bands** (Jackson's feedback, Oct 18).
 
 ---
 
@@ -15,7 +16,8 @@ soft pastel colors (ploen palette plus blue-green water tones) and the "contour 
 | Brand tokens (colors, fonts) | **`_brand.yml`**, which Quarto applies site-wide. Edit hex values here first |
 | Component styles | `styles.scss` (CSS variables `--jc-*` mirror `_brand.yml`) |
 | Brand guide (visual) | `brand.qmd` → `/brand.html` (linked in footer, hidden from search) |
-| Wave artwork | `scripts/make_waves.py` → `assets/waves-{hero,banner,lines}.svg` |
+| Wave artwork | `scripts/make_waves.py` → `assets/waves-{hero,banner,lines}.svg` (line-only "flow" art; `waves-bands.svg` is the old filled version, unused) |
+| **Website copy (editable)** | **`content/Website_Copy.docx`**: all site text by page and section, for Jackson to edit in Word |
 | Photo map | `photography.qmd` + `assets/photo-map.{js,css}` reading `data/places.json` |
 | Photo pipeline | `scripts/build_photos.py`: `photos-inbox/<place>/` → `media/photos/` + `data/places.json` |
 
@@ -38,6 +40,74 @@ Publishing means running `quarto render`, then committing **both** the sources a
 - `.claude/launch.json` serves `docs/` on port 4321 for in-app previewing.
 
 ---
+
+## Website copy workflow
+`content/Website_Copy.docx` mirrors every piece of text on the site. It's organized as Heading 1 = page,
+Heading 2 = section, Heading 3 = card or entry, with *italic labels* naming each design slot.
+When Jackson says "sync the website copy doc":
+1. Read it with `pandoc content/Website_Copy.docx -t markdown --track-changes=all`, so tracked edits and comments are visible.
+2. Apply the changes to the matching `.qmd` files (and `scripts/build_photos.py` DEMO or `place.yml` for photo blurbs).
+3. Read the "Brand & design notes" section and act on that feedback, or raise questions about it.
+4. Re-render, check the pages visually, and regenerate the doc if the structure changed.
+The doc does **not** update the site automatically. The brand guide page (`brand.qmd`) is code, so feedback goes in the doc, not there.
+
+## Changelog: Oct 18, 2026 (later): page split and centering
+- **Research** page is now a flat, prioritized list: EDF Groundwater Accounting → SPARCLE multifunctional landscapes →
+  irrigation & drought (SIF) → Zambia smallholder mapping → Redshanks / fuel reduction. Anchors: `#groundwater`,
+  `#landscapes`, `#irrigation`, `#zambia`, `#redshanks`.
+- **Projects** page order: Amazonia IPLC climate exposure (Jackson's exact title, `#amazonia`) → Merced → Zambia Shiny Explorer →
+  Coastal dunes → Salinas plan → Intercropping explorer, then **Course projects** (SGMA/biodiversity, aquaculture, Texas blackouts,
+  LA redlining, almond model).
+- Removed duplicates: the Groundwater portfolio, SIF, and SPARCLE cards left Projects (they're Research). The LPFW GIS card was removed
+  (the Redshanks entry links the code). Coast Live Oak and Kiwi entries are now only on the CV timeline.
+- All pages share one centered column, `--jc-col: 1080px` in `styles.scss`, and title banners align to it.
+- (Superseded the same day by the one-page restructure below.)
+
+## Changelog: Oct 19, 2026 (later): more photos
+- Rebuilt with 40 places and 291 photos (80 MB). New: Golden Trout Wilderness, Kafue NP, Lusaka (the `zambia/` folder was renamed to `lusaka_zambia/`),
+  Naranag and Srinagar (Kashmir), Tarangire NP, Victoria Falls, Zambezi NP (Zimbabwe). Kilimanjaro went from 7 to 10 photos.
+- Kafue, Tarangire, and Zambezi are 2025 (confirmed by Jackson; set in `place.yml` because the camera dates were wrong or missing).
+
+## Changelog: Oct 19, 2026: real photos on the map
+- Built the gallery from `photos-inbox/`: 32 places and 241 photos, 60 MB optimized (1.3 GB of originals stay local and git-ignored).
+  Output is WebP (1800px plus 520px thumbnails) with all metadata stripped.
+- Exports had empty GPS tags (only Kilimanjaro has real coordinates), so each folder got a `place.yml` with title, region,
+  category, and a hand-set `lat`/`lng`. Edit those files to rename places, change categories, or add a one-line `blurb`.
+- `build_photos.py` now reads images in subfolders (the Google Photos zip export for Bryce), ignores `.zip` files, and turns
+  `_` in folder names into `-` for slugs.
+- The map now clusters nearby places (Leaflet.markercluster 1.5.3 from unpkg). A numbered circle = N places and splits apart
+  on click. Single places use divIcon circles sized by photo count and colored by category. On narrow screens the map
+  centers on the median place, and it sits flush under the navbar.
+- Confirmed by Jackson: Certaldo goes in Tuscany, Italy (the folder name says France, but it's Italy). Sequoia is 2025 (the camera clock
+  was wrong, so the date is set in `place.yml`). "Iguakan Reserva Natural" and "Tulln an der Donau, Austria" are correct. `zambia/` has a
+  `place.yml` ready (Lusaka, fieldwork) and is waiting on photos. The Bryce `.zip` duplicates its unzipped folder and is safe to delete. The Word copy doc's photo section still lists the old sample places.
+
+## Changelog: Oct 18, 2026 (evening): one-page site
+- **`index.qmd` is now the whole site in one scroll:** photo banner → `#about` (bio, headshot, facts) → numbers →
+  `#research` (5 entries) → `#projects` (6 cards + course projects) → `#publications` → `#experience` (roles only, plus skills)
+  → `#contact`. Each item appears exactly once; the Experience section lists roles without repeating project descriptions.
+- `research.qmd`, `projects.qmd`, and `cv.qmd` were removed (they're in git history). Static redirect stubs (`research.html`,
+  `projects.html`, `cv.html` at the repo root, copied via `resources`) forward old links to the matching section.
+- Navbar: Research / Projects / Experience (anchor links) · Photography (separate page) · icons. On the home page the navbar is
+  transparent with white text over the photo and turns solid on scroll (inline script in the `index.qmd` front matter plus
+  `body.has-photo-hero` CSS).
+- **Photo banner:** `.photo-hero` with `--hero-img` / `--hero-pos` set inline in `index.qmd`. The name is a `div role="heading"`
+  (a real `<h1>` gets moved by Quarto into its title block). It has a 20% slate-blue wash, and the name is in caps (Jost 500, wide tracking).
+  **Chosen: `hero-sierra-flowers.jpg`** (Sierra meadow with wildflowers, Jackson's pick on Oct 18). Alternates in `assets/`: `hero-fitzroy.jpg`
+  (banner2, cropped to peaks and sky), `hero-sierra.jpg` (banner with sky extended upward; flowers cropped out). Originals live in
+  `assets-src/` (not published; only the optimized ~260 KB crops in `assets/` go live).
+- Banner sizing: height `min(88vh, 52vw, 1000px)` so wide screens keep the flowers. On phones (≤700px) the photo anchors to the
+  bottom at 74% height and `--hero-sky` (#92B8F0, sampled from the photo's top strip) fills the sky above, so the name stays clear.
+- The Word copy doc still uses the old page headings. Sync edits by matching section and project titles, and regenerate the doc
+  in the one-page structure after the next sync.
+
+## Changelog: Oct 18, 2026
+- Fonts: **Jost** (headings, nav, buttons, labels, tags) + **Lora** (body text). Swapped in `_brand.yml`, with
+  CSS variables `--jc-head`, `--jc-body`, and `--jc-ui` in `styles.scss`.
+- Artwork: replaced the Carbon Wave-like filled bands with thin, gradient-stroked contour lines
+  (water-blue → lavender → seafoam → sage) on the mist background, with a faint radial tint (`FLOW_STROKES` in `make_waves.py`).
+- Updated the brand guide (type specimens, artwork section, inspiration wording).
+- Added `content/Website_Copy.docx` (built with pandoc; styled headings with a table of contents, so press F9 / "Update field" in Word to fill it).
 
 ## Changelog: Oct 16, 2026 redesign
 

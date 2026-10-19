@@ -114,6 +114,44 @@ def build_svg(bands, width, height, seed, amp, lines_per_band, line_color, line_
     )
 
 
+# Line-only "flow" artwork: thin contour lines on a transparent background,
+# each band stroked with a soft horizontal gradient (water -> lavender -> sage).
+FLOW_STROKES = [
+    ("#7E9CC4", "#A88BC9"),  # periwinkle -> lavender
+    ("#A88BC9", "#5FB0A6"),  # lavender -> seafoam
+    ("#5FB0A6", "#7E9CC4"),  # seafoam -> periwinkle
+    ("#86AC93", "#A88BC9"),  # sage -> lavender
+    ("#7E9CC4", "#5FB0A6"),  # periwinkle -> seafoam
+    ("#A88BC9", "#86AC93"),  # lavender -> sage
+]
+
+
+def build_flow_svg(width, height, seed, amp, n_bands, lines_per_band, opacity, line_width=1.1,
+                   strokes=FLOW_STROKES):
+    rng = random.Random(seed)
+    curves = make_boundaries(n_bands, width, height, rng, amp)
+    defs, groups = [], []
+    for i in range(n_bands):
+        a, b = strokes[i % len(strokes)]
+        defs.append(
+            f'<linearGradient id="f{i}" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="{width}" y2="0">'
+            f'<stop offset="0" stop-color="{a}"/><stop offset="1" stop-color="{b}"/></linearGradient>'
+        )
+        top, bot = curves[i], curves[i + 1]
+        paths = "".join(
+            f'<path d="{catmull_rom_path(lerp_curve(top, bot, j / lines_per_band))}" vector-effect="non-scaling-stroke"/>'
+            for j in range(lines_per_band)
+        )
+        groups.append(f'<g stroke="url(#f{i})">{paths}</g>')
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" '
+        f'preserveAspectRatio="xMidYMid slice" role="img" aria-label="Flowing contour lines">'
+        f'<defs>{"".join(defs)}</defs>'
+        f'<g fill="none" stroke-opacity="{opacity}" stroke-width="{line_width}" stroke-linecap="round">'
+        + "".join(groups) + "</g></svg>"
+    )
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=11)
@@ -121,8 +159,11 @@ def main():
     OUT.mkdir(exist_ok=True)
 
     files = {
-        "waves-hero.svg": build_svg(HERO_BANDS, 1600, 900, args.seed, 70, 7, "#FFFFFF", 0.62),
-        "waves-banner.svg": build_svg(BANNER_BANDS, 1600, 320, args.seed + 3, 34, 6, "#FFFFFF", 0.6),
+        # site artwork: colored contour lines on transparent (sits on the mist background)
+        "waves-hero.svg": build_flow_svg(1600, 900, args.seed, 70, 7, 9, 0.7, 1.3),
+        "waves-banner.svg": build_flow_svg(1600, 320, args.seed + 3, 30, 5, 8, 0.65, 1.2),
+        # original filled-band version, kept for posters/slides if wanted
+        "waves-bands.svg": build_svg(HERO_BANDS, 1600, 900, args.seed, 70, 7, "#FFFFFF", 0.62),
         # faint line-only texture for light section backgrounds
         "waves-lines.svg": build_svg(HERO_BANDS, 1600, 900, args.seed + 5, 60, 6, "#3F5671", 0.07,
                                      fill=False),

@@ -52,9 +52,9 @@ INBOX = ROOT / "photos-inbox"
 OUT_MEDIA = ROOT / "media" / "photos"
 OUT_JSON = ROOT / "data" / "places.json"
 
-FULL_PX = 2000      # long edge of carousel images
+FULL_PX = 1800      # long edge of carousel images
 THUMB_PX = 520      # long edge of thumbnails
-QUALITY = 80
+QUALITY = 78
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".heic", ".heif", ".webp", ".tif", ".tiff"}
 
 
@@ -136,10 +136,12 @@ def build():
 
     with tempfile.TemporaryDirectory() as tmp:
         for folder in sorted(p for p in INBOX.iterdir() if p.is_dir()):
-            slug = folder.name.lower().replace(" ", "-")
+            slug = folder.name.lower().replace(" ", "-").replace("_", "-")
             meta = read_yaml(folder / "place.yml")
             captions = read_yaml(folder / "captions.yml")
-            files = sorted(f for f in folder.iterdir() if f.suffix.lower() in IMAGE_EXT)
+            # include images in subfolders (e.g. an unzipped Google Photos export); zips are ignored
+            files = sorted((f for f in folder.rglob("*") if f.suffix.lower() in IMAGE_EXT and not f.name.startswith(".")),
+                           key=lambda f: f.name.lower())
             if not files:
                 continue
             (OUT_MEDIA / slug).mkdir()

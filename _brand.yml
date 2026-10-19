@@ -54,27 +54,27 @@ color:
 
 typography:
   fonts:
-    - family: Fraunces
+    - family: Jost
       source: google
-      weight: [300, 400, 500, 600]
-      style: [normal, italic]
-    - family: Inter
-      source: google
-      weight: [300, 400, 500, 600]
+      weight: [400, 500, 600]
       style: [normal]
+    - family: Lora
+      source: google
+      weight: [400, 500, 600]
+      style: [normal, italic]
     - family: IBM Plex Mono
       source: google
       weight: [400, 500]
       style: [normal]
 
   base:
-    family: Inter
+    family: Lora
     size: 17px
     line-height: 1.7
 
   headings:
-    family: Fraunces
-    weight: 400
+    family: Jost
+    weight: 500
     color: slate
     line-height: 1.2
 
